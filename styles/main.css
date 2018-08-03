@@ -5,6 +5,43 @@ header {
   text-align: center;
 }
 
+nav {
+  padding: 10px;
+  float: right;
+}
+
+.mdl-navigation {
+  float: left;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.mdl-navigation__link {
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: bold;
+}
+
 body {
   padding-bottom: 5rem;
 }
@@ -44,6 +81,7 @@ footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
 }
+
 
 @media screen and (max-width: 1024px) {
   header.mdl-layout__header {
