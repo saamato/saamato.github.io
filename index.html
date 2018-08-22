@@ -1,87 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title>Sara Amato | Designer</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Material Design Lite-->
-      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
-      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-      <!-- Font Awesome -->
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel=" stylesheet">
+<head>
+  <title>Sara Amato | UI/UX Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Custom Styles
+  <link rel="stylesheet" href="styles/main.css">-->
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <img src="images/logo.png" class="logo" alt="personal logo">
+    </div>
+    <ul class="right">
+      <li><a href="#beespace">Work</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-         <nav class="mdl-navigation">
-         <a class="mdl-navigation__link" href="">Projects</a>
-         <a class="mdl-navigation__link" href="">About Me</a>
-         <a class="mdl-navigation__link" href="">Contact</a>
-       </nav>
-
-          <h1> Sara Amato</h1>
-          <p class="slogan"> Graphic/UI/UX designer living in Colorado</p>
-      </header>
-      <main class="mdl-layout__content mdl-grid">
-        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-          <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-             <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-           </div>
-           <div class="mdl-cell mdl-cell--7-col">
-             <h2 class="mdl-card__title-text">Featured Project Name</h2>
-             <p class="project-description mdl-card__supporting-text">Project description text</p>
-           </div>
-         </div>
-
-        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-           <div>
-             <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-           </div>
-           <div class="mdl-card__title">
-             <h2 class="mdl-card__title-text">Project Name</h2>
-           </div>
-           <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-
-         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-           <div>
-             <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-           </div>
-           <div class="mdl-card__title">
-             <h2 class="mdl-card__title-text">Project Name</h2>
-           </div>
-           <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-
-         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-           <div>
-             <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-           </div>
-           <div class="mdl-card__title">
-             <h2 class="mdl-card__title-text">Project Name</h2>
-           </div>
-           <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-       </main>
-
-          <footer class="mdl-mini-footer">
-            <ul class="mdl-mini-footer__link-list">
-              <li><a href="https://www.linkedin.com/in/sara-amato-0a70166/">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </a></li>
-              <li><a href="https://github.com/saamato">
-                <i class="fa fa-github-square" aria-hidden="true"></i>
-              </a></li>
-              <li><a href="https://www.facebook.com/samato14">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-              </a></li>
-              <li><a href="http://www.twitter.com/saamato">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </a></li>
-              <li><a href="mailto:saamato@gmail.com">
-              <i class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
-            </ul>
-          </footer>
-    </body>
+  <div class="container">
+    <h1> Hello!</h1>
+    <p class="intro"> My name is <span style="color:#93d0d1;font-weight:bold">Sara Amato.</span></br>
+      I'm a UX designer living in Colorado. </br>
+      I love to solve problems, collaborate, and design </br>
+      friendly user experiences that have an impact.
+    </p>
+  <section id="beespace" class="beespace">
+    <img src="images/beespace.png" class="beespace" alt="case study">
+    <p class="label">CASE STUDY</p>
+    <h2> Beespace </h2>
+    <p> The cloud storage service market is a crowded one. But the demand for a functional and cheap cloud storage service is growing. Beespace is a place for people at various stages of busy-ness can connect, collaborate and create content. Beespace offers a broad range of plans as well, including a free plan with 15GB of storage. </p>
+    <a href="beespace.html" class="button">View case study</a>
+  </section>
+  <section class="newspapers">
+    <img src="images/editorial.png" class="newspapers" alt="editorial">
+    <p class="label">EDITORIAL DESIGN</p>
+    <h2> Newspapers </h2>
+    <p> I spent 10 years working in journalism, designing for papers such as the Arizona Republic, RedEye Chicago and the Denver Post. Here’s some of my best work. </p>
+    <a href="editorial.html" class="button">View work</a>
+  </section>
+  <footer id ="footer">
+      <ul>
+      <li><a href="mailto:saamato@gmail.com">E-mail</a></li>
+      <li><a href="https://www.facebook.com/samato14" target="_blank">Facebook</a></li>
+      <li><a href="https://github.com/saamato" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/sara-amato/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.twitter.com/saamato" target="_blank">Twitter</a></li>
+    </ul>
+  </footer>
+    </div>
+</body>
 </html>
