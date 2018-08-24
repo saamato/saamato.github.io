@@ -4,8 +4,12 @@
   <title>Sara Amato | UI/UX Designer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Custom Styles
-  <link rel="stylesheet" href="styles/main.css">-->
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
 </head>
 <body>
   <nav>
@@ -15,19 +19,25 @@
     <ul class="right">
       <li><a href="#beespace">Work</a></li>
       <li><a href="about.html">About Me</a></li>
-      <li><a href="#footer">Contact</a></li>
+      <li><a href="#links">Contact</a></li>
     </ul>
   </nav>
 
   <div class="container">
+  <section class = "hello">
     <h1> Hello!</h1>
     <p class="intro"> My name is <span style="color:#93d0d1;font-weight:bold">Sara Amato.</span><br>
       I'm a UX designer living in Colorado. <br>
       I love to solve problems, collaborate, and design <br>
       friendly user experiences that have an impact.
     </p>
+    <div class ="arrow">
+      <a href="#beespace"><i class="fas fa-chevron-circle-down"></i></a>
+
+</div>
+  </section>
   <section id="beespace" class="beespace">
-    <img src="images/beespace.png" class="beespace" alt="case study">
+    <img class ="beemain" src="images/desktop.png" class="beespace" alt="case study"><img class ="beemain1" src="images/rail.png" class="beespace" alt="case study">
     <p class="label">CASE STUDY</p>
     <h2> Beespace </h2>
     <p> The cloud storage service market is a crowded one. But the demand for a functional and cheap cloud storage service is growing. Beespace is a place for people at various stages of busy-ness can connect, collaborate and create content. Beespace offers a broad range of plans as well, including a free plan with 15GB of storage. </p>
@@ -41,12 +51,12 @@
     <a href="editorial.html" class="button">View work</a>
   </section>
   <footer id ="footer">
-      <ul>
-      <li><a href="mailto:saamato@gmail.com">E-mail</a></li>
-      <li><a href="https://www.facebook.com/samato14" target="_blank">Facebook</a></li>
-      <li><a href="https://github.com/saamato" target="_blank">Github</a></li>
-      <li><a href="https://www.linkedin.com/in/sara-amato/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://www.twitter.com/saamato" target="_blank">Twitter</a></li>
+      <ul class = "contact">
+      <li class = "contact"><a href="mailto:saamato@gmail.com"><img class="icon" src="images/logos/email.png" alt="Email icon"></a></li>
+      <li class = "contact"><a href="https://www.facebook.com/samato14" target="_blank"><img class="icon" src="images/logos/facebook.png" alt="Facebook icon"></a></li>
+      <li class = "contact"><a href="https://github.com/saamato" target="_blank"><img class="icon" src="images/logos/github.png" alt="Github icon"></a></li>
+      <li class = "contact"><a href="https://www.linkedin.com/in/sara-amato/" target="_blank"><img class="icon" src="images/logos/linkedin.png" alt="LinkedIn icon"></a></li>
+      <li class = "contact"><a href="https://www.twitter.com/saamato" target="_blank"><img class="icon" src="images/logos/twitter.png" alt="Twitter icon"></a></li>
     </ul>
   </footer>
     </div>

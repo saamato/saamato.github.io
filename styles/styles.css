@@ -1,0 +1,159 @@
+*, *: before, *: after {
+  box-sizing: border-box;
+}
+
+
+/* text styles */
+body {
+  background-color: #FDFAF3;
+  font-family: Lato;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 800px;
+}
+
+nav {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 150px;
+    width: 86.1%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  width: 120px;
+  margin-left: -20px;
+}
+
+ul.right {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /* unvisited */
+a:visited { color:#000000; } /* visited */
+a:hover { color:#C35E2C; } /* mouse over */
+a:active { color:#000000; } /* selected */
+
+.arrow {
+  font-size: 3em;
+  margin: auto;
+  width: 100px;
+  padding-top: 50px;
+}
+
+section.hello {
+  height: 100vh;
+}
+
+section.beespace, section.newspapers {
+  padding-bottom: 50px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.container {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+}
+
+
+h1 {
+  color: #EBD341;
+  font-family: Abril Fatface;
+  font-size: 150px;
+  margin-top: 50px;
+  }
+
+  h2 {
+    font-family: Abril Fatface;
+    font-size: 40px;
+    margin-top: -15px;
+    margin-bottom: -5px;
+  }
+
+p.intro {
+  font-size: 40px;
+  margin-top: -100px;
+  line-height: 50px;
+  width: auto;
+}
+
+.label {
+  font-size: 15px;
+  font-family: Franklin Gothic Book;
+}
+
+.button {
+    background-color: #C35E2C;
+    border: none;
+    color: white;
+    font-family: Franklin Gothic Book;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    width: 130px;
+
+}
+
+img {
+  width: 100%;
+}
+
+a.button {
+  color: white;
+}
+
+#footer {
+  border-top: 1px solid hsl(0, 0%, 50%);
+  height: 150px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+ul.contact {
+  list-style-type: none;
+  margin: auto;
+  width: 600px;
+}
+
+li.contact {
+  font-size: 20px;
+}
+
+img.beemain {
+  width: 66%;
+  padding-right: 2.15%;
+  padding-top: 50px;
+}
+
+img.beemain1 {
+  width: 31.85%;
+}

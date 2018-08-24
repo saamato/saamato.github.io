@@ -1,0 +1,128 @@
+*, *: before, *: after {
+  box-sizing: border-box;
+}
+
+
+/* text styles */
+body {
+  background-color: #FDFAF3;
+  font-family: Lato;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p.email {
+  margin-top: -20px;
+}
+
+h2 {
+line-height: 55px;
+  font-family: Abril Fatface;
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+hr {
+   border-style: inset;
+   border-width: 1.5px;
+   width: 86.1%;
+}
+
+
+/** Nav bar **/
+nav {
+    height: 150px;
+    width: 86.1%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  width: 120px;
+  margin-left: -20px;
+}
+
+ul.right {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /* unvisited */
+a:visited { color:#000000; } /* visited */
+a:hover { color:#C35E2C; } /* mouse over */
+a:active { color:#000000; } /* selected */
+
+.row {
+  padding-left: 100px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about {
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+
+.about1 {
+  float: left;
+  width: 48%;
+  padding-left: 39px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** Footer style **/
+#footer {
+  height: 150px;
+  margin: auto;
+}
+
+ul.contact {
+  list-style-type: none;
+  margin: auto;
+  width: 600px;
+}
+
+li.contact {
+  font-size: 20px;
+}
+
+.icon {
+  width: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+img.sara {
+  padding-bottom: 50px;
+}

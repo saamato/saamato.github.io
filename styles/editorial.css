@@ -1,0 +1,112 @@
+*, *: before, *: after {
+  box-sizing: border-box;
+}
+
+
+/* text styles */
+body {
+  background-color: #FDFAF3;
+  font-family: Lato;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 750px;
+}
+
+h2 {
+  font-family: Abril Fatface;
+  font-size: 40px;
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+
+.label {
+  font-size: 15px;
+  font-family: Franklin Gothic Book;
+}
+
+/** Nav bar **/
+nav {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 150px;
+    width: 86.1%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  width: 120px;
+  margin-left: -20px;
+}
+
+ul.right {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /* unvisited */
+a:visited { color:#000000; } /* visited */
+a:hover { color:#C35E2C; } /* mouse over */
+a:active { color:#000000; } /* selected */
+
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+}
+
+img {
+  width: 32.5%;
+  padding: 5px 10px;
+  margin-right: -10px;
+}
+/** Footer style **/
+#footer {
+  border-top: 1px solid hsl(0, 0%, 50%);
+  height: 150px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+ul.contact {
+  list-style-type: none;
+  margin: auto;
+  width: 600px;
+}
+
+li.contact {
+  font-size: 20px;
+}
+
+.icon {
+  width: 40px;
+}
+
+/** Image sizes **/
+.column1 {
+width: 152%;
+}
+
+.column_big {
+  width: 310%;
+}
