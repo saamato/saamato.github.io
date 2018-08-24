@@ -102,6 +102,10 @@ li.contact {
   width: 40px;
 }
 
+.column {
+  width: 100%;
+}
+
 /** Image sizes **/
 .column1 {
 width: 152%;
