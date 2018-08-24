@@ -1,4 +1,4 @@
-*, *: before, *: after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -18,10 +18,11 @@ p {
 
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 150px;
+    height: 200px;
     width: 86.1%;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .left {
@@ -119,7 +120,8 @@ p.intro {
     text-align: center;
     display: inline-block;
     font-size: 15px;
-    width: 130px;
+    width: 175px;
+    line-height: 1;
 
 }
 
@@ -155,5 +157,29 @@ img.beemain {
 }
 
 img.beemain1 {
-  width: 31.85%;
+  width: 30.8%;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.greeting h1 {
+  color: #EBD341;
+  font-family: Abril FatFace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .05em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end 2;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #EBD341 }
 }

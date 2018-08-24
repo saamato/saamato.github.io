@@ -1,4 +1,4 @@
-*, *: before, *: after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ p.section {
 
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 150px;
+    height: 200px;
     width: 86.1%;
     margin: auto;
     padding-top: 50px;
@@ -76,7 +76,7 @@ img {
 
 img.beespace {
   width: 75%;
-  padding-left: 12.5%;
+  margin-left: 12.5%;
   padding-bottom: 20px;
 }
 
@@ -131,11 +131,12 @@ h1 {
     text-align: center;
     display: inline-block;
     font-size: 15px;
-    width: 130px;
+    width: 175px;
+    line-height: 1;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
-}
+  }
 
 a.button {
   color: white;
@@ -156,8 +157,8 @@ a.button {
 
 .left {
   float: left;
-  width: 45%;
-  padding-right: 20px;
+  width: 50%;
+  padding-right: 30px;
 }
 
 .prosol:after {
@@ -168,7 +169,7 @@ a.button {
 
 .service {
     float: left;
-    width: 26.95%;
+    width: 31.5%;
     text-align: left;
     margin-right: 20px;
     margin-top: 20px;
@@ -215,12 +216,13 @@ hr {
    border-width: 1.5px;
    margin-top: 50px;
 }
+
 img.storage {
   margin-bottom: 30px;
 }
 
 img.persona {
-  width: 50%;
+  width: 85%;
 padding-left: 25%;
 padding-top:25px;
 
@@ -228,8 +230,8 @@ padding-top:25px;
 
 .goalsfrust {
     float: left;
-    width: 23.5%;
-    padding-right: 15px;
+    width: 20%;
+    margin-right: 5%;
 }
 
 /* Clear floats after the columns */
@@ -259,6 +261,7 @@ p.color-box {
 
 img.beelogo {
   float: right;
-  width: 50%;
+  width: 65%;
   margin-top: 5%;
+  padding-right: 100px;
 }

@@ -1,4 +1,4 @@
-*, *: before, *: after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ p.email {
 }
 
 h2 {
-line-height: 55px;
+  line-height: 55px;
   font-family: Abril Fatface;
   font-size: 40px;
   margin-top: -10px;
@@ -83,13 +83,12 @@ a:active { color:#000000; } /* selected */
 .about {
     float: left;
     width: 48%;
-    padding: 10px;
+    padding-right: 10px;
 }
 
 .about1 {
   float: left;
   width: 48%;
-  padding-left: 39px;
 }
 
 /* Clear floats after the columns */
