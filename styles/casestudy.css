@@ -168,7 +168,7 @@ a.button {
 
 .service {
     float: left;
-    width: 27.95%;
+    width: 26.95%;
     text-align: left;
     margin-right: 20px;
     margin-top: 20px;
@@ -212,7 +212,6 @@ section {
 }
 
 hr {
-   border-style: inset;
    border-width: 1.5px;
    margin-top: 50px;
 }
