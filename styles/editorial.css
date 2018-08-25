@@ -97,23 +97,48 @@ li.contact {
 }
 
 /** Image sizes **/
-.column1 {
-width: 152%;
+
+
+
+.left {
+  float: left;
 }
 
-.column {
-  width: 100%;
-}
-
-.column_big {
-  width: 310%;
+.right {
+  float: right;
 }
 
 img.editorial {
-  padding-right: 20px;
-  padding-bottom: 20px;
-  width: 33%;
+  width: 32%;
+  margin-right: 1.5%;
+  margin-bottom: 1%;
 }
+
+img.editorialR {
+  width: 32%;
+  float: right;
+  margin-bottom: 1%;
+}
+
+img.editorial_wide {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+img.editorial_half {
+  width: 48.75%;
+  float: left;
+  margin-right: 1.5%;
+  margin-bottom: 1%;
+}
+
+img.editorial_halfR {
+  width: 48.75%;
+  float: right;
+  margin-bottom: 1%;
+
+}
+
 
 .icon {
   width: 40px;
