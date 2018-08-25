@@ -26,19 +26,20 @@ h2 {
   margin-top: -10px;
 }
 
-hr {
-   border-style: inset;
-   border-width: 1.5px;
-   width: 86.1%;
+.container {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
 }
 
 
 /** Nav bar **/
 nav {
-    height: 150px;
-    width: 86.1%;
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 200px;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .left {
@@ -74,16 +75,13 @@ a:hover { color:#C35E2C; } /* mouse over */
 a:active { color:#000000; } /* selected */
 
 .row {
-  padding-left: 100px;
-  padding-right: 120px;
-  padding-bottom: 50px;
   padding-top: 50px;
 }
 
 .about {
     float: left;
-    width: 48%;
-    padding-right: 10px;
+    width: 50%;
+    padding-right: 30px;
 }
 
 .about1 {
@@ -100,6 +98,7 @@ a:active { color:#000000; } /* selected */
 
 /** Footer style **/
 #footer {
+  border-top: 1px solid hsl(0, 0%, 50%);
   height: 150px;
   margin: auto;
 }

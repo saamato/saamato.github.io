@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="styles/casestudy.css">
 </head>
 <body>
+  <div class="container">
+
   <nav>
     <div class="left">
         <a href="index.html"><img class="logo" src="images/logo.png" alt ="personal logo"></a>
@@ -18,7 +20,6 @@
       <li><a href="#footer">Contact</a></li>
     </ul>
   </nav>
-  <div class="container">
     <section class="intro">
       <p class="label">CASE STUDY</p>
       <h2> A place where users can connect, create and collaborate. </h2>
@@ -70,21 +71,25 @@
         <p>Beespace is focused on efficiency and cleanliness. Beespace offers storage, content creation, organization and collaboration. Beespace is stripped down to the essentials so even the busiest of people can seamlessly use it.</p>
       </div>
     </section>
-    <section class="user survey">
+    <section class="usersurvey">
 
       <p class="label">USER SURVEY</p>
       <h3> What do our users want and need? </h3>
       <p class ="section">With the user survey, I wanted to get an idea of what people love, hate and want to improve about the cloud-based storage services they use. It was important for me to figure out why people used cloud-based storage. Was it for work? Was it personal? My other  point of focus was to figure out  what was the most and least important feature of the service.</p>
-      <img src="images/numbers.png" alt="pie chart">
-      <!--- I'm going to use JS/CSS to make these animate
-      <div class="one-fourth">
+</section>
+<section class="charts">
+    <div class ="one-fourth">
+      <canvas id="myChart">
+      </canvas>
     </div>
     <div class="one-fourth">
-  </div>
-  <div class="one-fourth">
-</div>
-<div class="one-fourth">
-</div> -->
+      <canvas id="d2">
+      </canvas>
+    </div>
+    <div class="one-fourth">
+      <canvas id="d3">
+      </canvas>
+    </div>
 </section>
 <section class="swot">
   <h3> What is everyone else doing? </h3>
@@ -221,18 +226,18 @@
 <section class= "wireframes">
   <h3> Wireframes </h3>
   <p class="section"> The wireframes are probably what changed the most throughout the project.  The first few iterations of the dashboard were rough and I refined them as I continued on. Once I had a refined version, I moved onto the other pages as I knew based on the user survey that I was going to try to keep this as simplistic as possible. </p>
-  <a href="https://www.figma.com/file/QCL19Xgyy4Cmo0Jf9LGCYXcM/Cloud-storage-wireframing" target="_blank" class="button">View wireframes</a>
-  <img src="images/wireframes.png" class="wireframes" alt="wireframes photos">
+  <a href="https://www.figma.com/file/QCL19Xgyy4Cmo0Jf9LGCYXcM/Cloud-storage-wireframing" target="_blank" class="button">View wireframes</a><br>
+
 </section>
 
 <section class="branding">
-  <div class = "prosol">
-    <div class="left">
+  <div class = "beebranding">
+    <div class="beelogo">
     <h3> Branding </h3>
     <p class="section">When it came to defining what the cloud storage service would be, I thought back to the user survey and the user personas I created.  I wanted the brand to be something people could trust and rely on. I wanted it to be a place where people went to stay organized and to stay connected. With the help of mindmapping, I played around the word combinations and landed on the word “busy.” I instantly thought of “bee” and went from there.  It wasn’t long before Beespace was born. The refined Beespace logo is a honeycomb, with part of it cut out to make way for the hamburger style list and brand name. </p>
     <a href="https://drive.google.com/open?id=1z-sMlwfCSYQnwLLlw1XFrOIMV06Y3zZQ" target="_blank" class="button">View branding</a><br>
   </div>
-  <div class = "left">
+  <div class = "beelogo">
     <img class = "beelogo" src="images/colorlogo.svg" alt="beespace logo">
 </div>
   </div>
@@ -278,7 +283,6 @@
 
   <p class="section">Designing Beespace was probably the most challenging thing I’ve designed. I have experience in visual design, but when it came to user research and branding, that’s not something I am familiar with. It’s natural for me to get lost in something I designed based on my own personal preferences. Designing Beespace forced me out of that box and it forced me to seek out users for input and thoughts. The user survey, user testing and preference testing were invaluable to this project. By the end of the project I felt more comfortable reaching out to others for opinions and it made me a much better designer.</p>
   </section>
-  <hr>
   <footer id ="footer">
       <ul class = "contact">
       <li class = "contact"><a href="mailto:saamato@gmail.com"><img class="icon" src="images/logos/email.png" alt="Email icon"></a></li>
@@ -289,5 +293,7 @@
     </ul>
   </footer>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script src="/scripts/doughnuts.js"></script>
 </body>
 </html>
