@@ -6,7 +6,7 @@
 /* text styles */
 body {
   background-color: #FDFAF3;
-  font-family: Lato;
+  font-family: "Lato", "Open Sans";
   margin: auto;
 }
 
@@ -26,6 +26,8 @@ h2 {
   margin-top: -10px;
 }
 
+
+/* Container */
 .container {
   padding-left: 110px;
   padding-right: 110px;
@@ -37,10 +39,10 @@ h2 {
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
     height: 200px;
-    width: 100%;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .left {
@@ -52,8 +54,8 @@ nav {
 }
 
 .logo {
-  width: 120px;
   margin-left: -20px;
+  width: 120px;
 }
 
 ul.right {
@@ -66,6 +68,7 @@ li {
   padding: 30px;
 }
 
+/* Link info */
 a {
   text-decoration: none;
 }
@@ -75,45 +78,31 @@ a:visited { color:#000000; } /* visited */
 a:hover { color:#C35E2C; } /* mouse over */
 a:active { color:#000000; } /* selected */
 
+/* Grid */
 .row {
   padding-top: 50px;
 }
 
 .about {
     float: left;
-    width: 50%;
-    padding-right: 30px;
+    padding-right: 4%;
+    width: 48%;
+
 }
 
 .about1 {
-  float: left;
+  float: right;
   width: 48%;
 }
 
 /* Clear floats after the columns */
 .row:after {
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 
-/** Footer style **/
-#footer {
-  border-top: 1px solid hsl(0, 0%, 50%);
-  height: 150px;
-  margin: auto;
-}
-
-ul.contact {
-  list-style-type: none;
-  margin: auto;
-  width: 600px;
-}
-
-li.contact {
-  font-size: 20px;
-}
-
+/* Images */
 .icon {
   width: 40px;
 }
@@ -124,4 +113,22 @@ img {
 
 img.sara {
   padding-bottom: 50px;
+}
+
+/** Footer style **/
+#footer {
+  border-top: 1px solid hsl(0, 0%, 50%);
+  height: 150px;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+ul.contact {
+  list-style-type: none;
+  margin: auto;
+  width: 600px;
+}
+
+li.contact {
+  font-size: 20px;
 }

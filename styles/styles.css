@@ -136,8 +136,8 @@ a.button {
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
   height: 150px;
-  padding-top: 50px;
-  margin: auto;
+  margin-top: 25px;
+  padding-top: 25px;
 }
 
 ul.contact {
@@ -160,10 +160,10 @@ img.beemain1 {
   width: 30.8%;
 }
 
-/* DEMO-SPECIFIC STYLES */
+/* STYLES FOR TYPING HELLO */
 .greeting h1 {
   color: #EBD341;
-  font-family: Abril FatFace;
+  font-family: "Abril FatFace", display;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .05em solid transparent; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
