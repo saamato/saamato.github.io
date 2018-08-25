@@ -71,15 +71,11 @@ a:hover { color:#C35E2C; } /* mouse over */
 a:active { color:#000000; } /* selected */
 
 .container {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 110px;
+  padding-right: 110px;
   padding-bottom: 50px;
 }
 
-img {
-  width: 33%;
-  margin-right: -10px;
-}
 /** Footer style **/
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
@@ -116,6 +112,7 @@ width: 152%;
 }
 
 img.editorial {
+  width: 33%;
   padding-right: 20px;
   padding-bottom: 20px;
 }
