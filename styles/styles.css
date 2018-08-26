@@ -6,7 +6,7 @@
 /* text styles */
 body {
   background-color: #FDFAF3;
-  font-family: "Lato", "Open Sans";
+  font-family: "Lato", sans-serif;
   margin: auto;
 }
 
@@ -85,13 +85,13 @@ section.beespace {
 
 h1 {
   color: #EBD341;
-  font-family: "Abril Fatface", display;
+  font-family: "Abril Fatface", serif;
   font-size: 150px;
   margin-top: 50px;
   }
 
   h2 {
-    font-family: "Abril Fatface", display;
+    font-family: "Abril Fatface", serif;
     font-size: 40px;
     margin-top: -15px;
     margin-bottom: -5px;
@@ -106,7 +106,7 @@ p.intro {
 
 .label {
   font-size: 15px;
-  font-family: "Franklin Gothic Book";
+  font-family: "Franklin Gothic Book", sans-serif;
 }
 
 .button {

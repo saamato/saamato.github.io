@@ -6,31 +6,31 @@
 /* text styles */
 body {
   background-color: #FDFAF3;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   margin: auto;
 }
 
 h1 {
   color: #EBD341;
-  font-family: "Abril Fatface", display;
+  font-family: "Abril Fatface", serif;
   font-size: 150px;
   margin-top: 50px;
   }
 
   h2 {
-    font-family: "Abril Fatface", display;
+    font-family: "Abril Fatface", serif;
     font-size: 40px;
     margin-bottom: -5px;
   }
 
   h3  {
-    font-family: "Abril Fatface", display;
+    font-family: "Abril Fatface", serif;
     font-size: 30px;
     margin-bottom: -5px;
   }
 
   h4 {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 25px;
     font-weight: 900;
     margin-top: -5px;
@@ -38,7 +38,7 @@ h1 {
   }
 
   h5 {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 900;
     margin-bottom: -25px;
@@ -46,7 +46,7 @@ h1 {
 
 .label {
   font-size: 15px;
-  font-family: "Franklin Gothic Book";
+  font-family: "Franklin Gothic Book", sans-serif;
   margin-bottom: -25px;
 }
 

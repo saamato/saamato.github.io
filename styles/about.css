@@ -6,7 +6,7 @@
 /* text styles */
 body {
   background-color: #FDFAF3;
-  font-family: "Lato", "Open Sans";
+  font-family: "Lato", sans-serif;
   margin: auto;
 }
 
@@ -21,7 +21,7 @@ p.email {
 
 h2 {
   line-height: 55px;
-  font-family: "Abril Fatface", display;
+  font-family: "Abril Fatface", serif;
   font-size: 40px;
   margin-top: -10px;
 }
