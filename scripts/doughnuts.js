@@ -19,10 +19,12 @@ var myChart = new Chart(ctx, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      text: 'Why users use cloud-based storages services (percentage)',
+      text: 'Why do users use cloud-based storage services',
+      fontSize: 15,
       fontFamily: "Lato",
       fontColor: 'black'
     },
+    plugins: {p1: true, p2: false, p3: false},
     legend: {
       labels: {
         // This more specific font property overrides the global property
@@ -42,7 +44,7 @@ var d2 = new Chart(chartTwo, {
     labels: ["Uploading your own files", "Other"],
 
     datasets: [{
-      label: '# of Votes',
+
       data: [50, 50],
       backgroundColor: [
         '#93d0d1',
@@ -58,15 +60,17 @@ var d2 = new Chart(chartTwo, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      text: 'What feature is most important to a user (percentage)',
+      fontSize: 15,
+      text: 'What feature is most important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
     },
+      plugins: {p1: false, p2: true, p3: false},
     legend: {
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
-        fontFamily: "Lato"
+        fontFamily: "Lato",
 
       }
     }
@@ -96,11 +100,13 @@ var d3 = new Chart(chartThree, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      text: 'What feature is least important to a user (percentage)',
+      fontSize: 15,
+      text: 'What feature is least important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
 
     },
+  plugins: {p1: false, p2: false, p3: true},
     legend: {
       labels: {
         // This more specific font property overrides the global property
@@ -111,4 +117,70 @@ var d3 = new Chart(chartThree, {
     }
   }
 
+});
+
+var plugin = Chart.pluginService.register({
+  id: "p1",
+  beforeDraw: function(chart) {
+    var width = chart.chart.width,
+        height = chart.chart.height,
+        ctx = chart.chart.ctx;
+
+    ctx.restore();
+    var fontSize = (height / 114).toFixed(2);
+    ctx.font = fontSize + "em Abril Fatface";
+    ctx.fillStyle = "#93d0d1";
+    ctx.textBaseline = "middle";
+
+    var text = "60.7%",
+        textX = Math.round((width - ctx.measureText(text).width) / 2),
+        textY = height / 1.8;
+
+    ctx.fillText(text, textX, textY);
+    ctx.save();
+  }
+});
+
+var plugin = Chart.pluginService.register({
+  id: "p2",
+  beforeDraw: function(chart) {
+    var width = chart.chart.width,
+        height = chart.chart.height,
+        ctx = chart.chart.ctx;
+
+    ctx.restore();
+    var fontSize = (height / 114).toFixed(2);
+    ctx.font = fontSize + "em Abril Fatface";
+    ctx.fillStyle = "#93d0d1";
+    ctx.textBaseline = "middle";
+
+    var text = "50%",
+        textX = Math.round((width - ctx.measureText(text).width) / 2),
+        textY = height / 1.8;
+
+    ctx.fillText(text, textX, textY);
+    ctx.save();
+  }
+});
+
+var plugin = Chart.pluginService.register({
+  id: "p3",
+  beforeDraw: function(chart) {
+    var width = chart.chart.width,
+        height = chart.chart.height,
+        ctx = chart.chart.ctx;
+
+    ctx.restore();
+    var fontSize = (height / 114).toFixed(2);
+    ctx.font = fontSize + "em Abril Fatface";
+    ctx.fillStyle = "#93d0d1";
+    ctx.textBaseline = "middle";
+
+    var text = "64.3%",
+        textX = Math.round((width - ctx.measureText(text).width) / 2),
+        textY = height / 1.8;
+
+    ctx.fillText(text, textX, textY);
+    ctx.save();
+  }
 });
