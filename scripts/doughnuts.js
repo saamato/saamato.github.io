@@ -20,7 +20,7 @@ var myChart = new Chart(ctx, {
     title: {
       display: true,
       text: 'Why do users use cloud-based storage services',
-      fontSize: 15,
+      fontSize: 20,
       fontFamily: "Lato",
       fontColor: 'black'
     },
@@ -29,7 +29,9 @@ var myChart = new Chart(ctx, {
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
-        fontFamily: "Lato"
+        fontFamily: "Lato",
+        fontSize: 15,
+
 
       }
     }
@@ -60,7 +62,7 @@ var d2 = new Chart(chartTwo, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      fontSize: 15,
+      fontSize: 20,
       text: 'What feature is most important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
@@ -71,6 +73,8 @@ var d2 = new Chart(chartTwo, {
         // This more specific font property overrides the global property
         fontColor: 'black',
         fontFamily: "Lato",
+        fontSize: 15,
+
 
       }
     }
@@ -85,7 +89,6 @@ var d3 = new Chart(chartThree, {
     labels: ["Saving links from the web", "Other"],
 
     datasets: [{
-      label: '# of Votes',
       data: [64.3, 35.7],
       backgroundColor: [
         '#93d0d1',
@@ -100,11 +103,10 @@ var d3 = new Chart(chartThree, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      fontSize: 15,
+      fontSize: 20,
       text: 'What feature is least important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
-
     },
   plugins: {p1: false, p2: false, p3: true},
     legend: {
@@ -112,6 +114,7 @@ var d3 = new Chart(chartThree, {
         // This more specific font property overrides the global property
         fontColor: 'black',
         fontFamily: "Lato",
+        fontSize: 15,
 
       }
     }
