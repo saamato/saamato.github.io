@@ -97,10 +97,7 @@ li.contact {
   font-size: 20px;
 }
 
-/** Image sizes **/
-
-
-
+/** grid and image sizes **/
 .left {
   float: left;
 }
@@ -110,33 +107,33 @@ li.contact {
 }
 
 img.editorial {
-  width: 32%;
   margin-right: 1.5%;
   margin-bottom: 1%;
+  width: 32%;
 }
 
 img.editorialR {
-  width: 32%;
   float: right;
   margin-bottom: 1%;
+  width: 32%;
 }
 
 img.editorial_wide {
-  width: 100%;
   margin-bottom: 1%;
+  width: 100%;
 }
 
 img.editorial_half {
-  width: 48.75%;
   float: left;
   margin-right: 1.5%;
   margin-bottom: 1%;
+  width: 48.75%;
 }
 
 img.editorial_halfR {
-  width: 48.75%;
   float: right;
   margin-bottom: 1%;
+  width: 48.75%;
 
 }
 

@@ -16,74 +16,6 @@ p {
   width: 800px;
 }
 
-nav {
-    border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 200px;
-    margin: auto;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.logo {
-  width: 120px;
-  margin-left: -20px;
-}
-
-ul.right {
-  list-style-type: none;
-}
-
-li {
-  float: left;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-left: 50px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:link { color:#000000; } /* unvisited */
-a:visited { color:#000000; } /* visited */
-a:hover { color:#C35E2C; } /* mouse over */
-a:active { color:#000000; } /* selected */
-
-.arrow {
-  font-size: 3em;
-  margin: auto;
-  width: 100px;
-  padding-top: 50px;
-}
-
-section.hello {
-  height: 100vh;
-}
-
-section.beespace {
-  padding-bottom: 50px;
-}
-
-.icon {
-  width: 40px;
-}
-
-.container {
-  padding-left: 110px;
-  padding-right: 110px;
-  padding-bottom: 50px;
-}
-
-
 h1 {
   color: #EBD341;
   font-family: "Abril Fatface", serif;
@@ -110,29 +42,109 @@ p.intro {
   font-family: "Franklin Gothic Book", sans-serif;
 }
 
+/* nav bar */
+
+nav {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  margin-left: -20px;
+  width: 120px;
+}
+
+ul.right {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+/* link styles */
+a {
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /* unvisited */
+a:visited { color:#000000; } /* visited */
+a:hover { color:#C35E2C; } /* mouse over */
+a:active { color:#000000; } /* selected */
+
+
+/*down arrow*/
+.arrow {
+  font-size: 3em;
+  margin: auto;
+  padding-top: 50px;
+  width: 100px;
+}
+
+
+/*section information */
+section.hello {
+  height: 100vh;
+}
+
+section.beespace {
+  padding-bottom: 50px;
+}
+
+/* container*/
+
+.container {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+}
+
+/* button style */
+
 .button {
     background-color: #C35E2C;
     border: none;
     color: white;
-    font-family: Franklin Gothic Book;
+    display: inline-block;
+    font-family: "Franklin Gothic Book", sans-serif;
     font-weight: bold;
+    font-size: 15px;
+    line-height: 1;
     padding: 20px;
     text-transform: uppercase;
     text-align: center;
-    display: inline-block;
-    font-size: 15px;
     width: 175px;
-    line-height: 1;
 
-}
-
-img {
-  width: 100%;
 }
 
 a.button {
   color: white;
 }
+
+/* global image */
+
+img {
+  width: 100%;
+}
+
+
+
+/* footer style with icons */
 
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
@@ -151,15 +163,21 @@ li.contact {
   font-size: 20px;
 }
 
+.icon {
+  width: 40px;
+}
+
+/* beespace images */
 img.beemain {
-  width: 66%;
   padding-right: 2.15%;
   padding-top: 50px;
+  width: 66%;
 }
 
 img.beemain1 {
   width: 30.8%;
 }
+
 
 /* STYLES FOR TYPING HELLO */
 .greeting h1 {

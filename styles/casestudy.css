@@ -67,9 +67,10 @@ p.section {
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
     height: 200px;
-    width: 100%;
     margin: auto;
     padding-top: 50px;
+    width: 100%;
+
 }
 
 .left {
@@ -81,8 +82,8 @@ nav {
 }
 
 .logo {
-  width: 120px;
   margin-left: -20px;
+  width: 120px;
 }
 
 ul.right {
@@ -120,9 +121,9 @@ img {
 }
 
 img.beespace {
-  width: 75%;
   margin-left: 12.5%;
   padding-bottom: 20px;
+  width: 75%;
 }
 
 img.storage {
@@ -130,17 +131,17 @@ img.storage {
 }
 
 img.persona {
-  width: 85%;
 padding-left: 25%;
 padding-top:25px;
+width: 85%;
 
 }
 
 img.beelogo {
   float: right;
-  width: 65%;
   margin-top: 5%;
   padding-right: 100px;
+  width: 65%;
 }
 
 
@@ -149,17 +150,17 @@ img.beelogo {
     background-color: #C35E2C;
     border: none;
     color: white;
-    font-family: Franklin Gothic Book;
+    display: inline-block;
+    font-family: "Franklin Gothic Book", sans-serif;
+    font-size: 15px;
     font-weight: bold;
     padding: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    width: 175px;
     line-height: 1;
     margin-right: 10px;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 175px;
 
   }
 
@@ -171,29 +172,29 @@ a.button {
 
 .WID {
     float: left;
-    width: 33.33%;
     text-align: center;
+    width: 33.33%;
 }
 
 /* Clear floats after the columns */
 .tools:after {
     content: "";
-    display: block;
     clear: both;
+    display: block;
 }
 
 .left {
   float: left;
-  width: 50%;
   padding-right: 30px;
+  width: 50%;
 }
 
 /* Problems and Solutions */
 
 .prosol:after {
   content: "";
-  display: block;
   clear: both;
+  display: block;
 }
 
 .prosol {
@@ -218,6 +219,7 @@ a.button {
 
 }
 
+/* the right side of the services */
 .serviceR {
     background-color: #faf3e1;
     float: right;
@@ -231,6 +233,8 @@ a.button {
     width: 32%;
 
 }
+
+/* competitive analysis section*/
 
 .swot {
   float: left;
@@ -246,43 +250,37 @@ section {
 
 .goalsfrust {
     float: left;
-    width: 20%;
     margin-right: 5%;
+    width: 20%;
 }
 
 /* Clear floats after the columns */
 .columncount:after {
     content: "";
-    display: block;
     clear: both;
-}
-
-img.pt {
-  width: 49%;
-  padding: 20px 11px;
-  margin-left: -10px;
+    display: block;
 }
 
 /* ChartJS grid */
 
 .one-third {
-  width: 33.3%;
   float: left;
+  width: 33.3%;
 }
 
 
 /* Branding grid */
 .beelogo {
     float: left;
-    width: 45%;
     margin-right: 5%;
+    width: 45%;
 }
 
 /* Clear floats after the columns */
 .beebranding:after {
     content: "";
-    display: block;
     clear: both;
+    display: block;
 }
 
 /* Color box styles for branding*/
@@ -307,6 +305,15 @@ p.color-boxR {
   padding: 58px 0 ;
   text-align: center;
   width: 24.25%;
+}
+
+/* preference test image sizing */
+
+img.pt {
+  margin-left: -10px;
+  padding: 20px 11px;
+  width: 49%;
+
 }
 
 /*Footer */
