@@ -45,7 +45,8 @@ ul.right {
 li {
   float: left;
   font-size: 20px;
-  padding: 30px;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 a {
