@@ -209,8 +209,6 @@ img.beemain1 {
 /* Media queries */
 @media (min-width: 320px) and (max-width: 480px) {
 
-
-
 .container {
     padding-left: 25px;
     padding-right: 25px;
@@ -267,19 +265,32 @@ img.beemain1 {
 
     li {
       float: left;
-      font-size: 16px;
+      font-size: 13px;
       padding-top: 30px;
-      padding-left: 50px;
+      padding-left: 12px;
     }
 
 
     #footer {
       border-top: 1px solid hsl(0, 0%, 50%);
-      height: 100px;
+      height: 70px;
       width: 100%;
       margin-top: 25px;
       padding-top: -25px;
+      padding-bottom: 10px;
     }
+
+    ul.contact {
+      list-style-type: none;
+      width: 100%;
+      margin-top: -5%;
+    }
+
+    li.contact {
+      font-size: 20px;
+      padding-right: 20px;
+    }
+
 
     .icon {
       width: 20px;
@@ -297,6 +308,12 @@ img.beemain1 {
 
     .arrow {
     padding-left: 25px;
+    }
+
+    .button {
+      font-size: 10px;
+      width: 125px;
+
     }
 
 }
