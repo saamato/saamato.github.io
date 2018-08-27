@@ -151,6 +151,7 @@ img {
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
   height: 150px;
+  width: 100%;
   margin-top: 50px;
   padding-top: 25px;
 }
@@ -203,4 +204,96 @@ img.beemain1 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #EBD341 }
+}
+
+/* Media queries */
+@media screen and (max-width: 575px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p.intro {
+      font-size: 25px;
+      margin-top: -100px;
+      line-height: 35px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      width: 80%;
+    }
+
+    nav {
+        border-bottom: 1px solid hsl(0, 0%, 50%);
+        height: 135px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .logo {
+      margin-left: -20px;
+      width: 100px;
+    }
+
+    ul.right {
+      list-style-type: none;
+    }
+
+    li {
+      float: left;
+      font-size: 16px;
+      padding-top: 30px;
+      padding-left: 50px;
+    }
+
+
+    #footer {
+      border-top: 1px solid hsl(0, 0%, 50%);
+      height: 100px;
+      width: 100%;
+      margin-top: 25px;
+      padding-top: -25px;
+    }
+
+    .icon {
+      width: 20px;
+    }
+
+    img.beemain {
+      padding-right: 2.15%;
+      padding-top: 50px;
+      width: 100%;
+    }
+
+    img.beemain1 {
+      display: none;
+    }
+
+    .arrow {
+    padding-left: 25px;
+    }
+
 }
