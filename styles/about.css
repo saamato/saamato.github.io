@@ -21,7 +21,8 @@ p.email {
 
 h2 {
   line-height: 55px;
-  font-family: "Abril Fatface", "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
   font-size: 40px;
   margin-top: -10px;
 }

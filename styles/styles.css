@@ -18,14 +18,16 @@ p {
 
 h1 {
   color: #EBD341;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 150px;
+  font-weight: 900;
   margin-top: 50px;
   }
 
   h2 {
-    font-family: "Abril Fatface", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
+    font-weight: 900;
     margin-top: -15px;
     margin-bottom: -5px;
   }
@@ -182,7 +184,7 @@ img.beemain1 {
 /* STYLES FOR TYPING HELLO */
 .greeting h1 {
   color: #EBD341;
-  font-family: "Abril FatFace", display;
+  font-family: "Playfair Display", serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .05em solid transparent; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

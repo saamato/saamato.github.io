@@ -12,20 +12,23 @@ body {
 
 h1 {
   color: #EBD341;
-  font-family: "Abril Fatface", serif;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
   font-size: 150px;
   margin-top: 50px;
   }
 
   h2 {
-    font-family: "Abril Fatface", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
+    font-weight: 900;
     margin-bottom: -5px;
   }
 
   h3  {
-    font-family: "Abril Fatface", serif;
+    font-family: "Playfair Display", serif;
     font-size: 30px;
+    font-weight: 900;
     margin-bottom: -5px;
   }
 
