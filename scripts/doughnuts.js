@@ -24,7 +24,15 @@ var myChart = new Chart(ctx, {
       fontFamily: "Lato",
       fontColor: 'black'
     },
-    plugins: {p1: true, p2: false, p3: false},
+    plugins: {
+      p1: true, p2: false, p3: false,
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      }
+
+    },
     legend: {
       labels: {
         // This more specific font property overrides the global property
@@ -67,7 +75,15 @@ var d2 = new Chart(chartTwo, {
       fontFamily: "Lato",
       fontColor: 'black'
     },
-      plugins: {p1: false, p2: true, p3: false},
+    plugins: {
+      p1: false, p2: true, p3: false,
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      }
+
+    },
     legend: {
       labels: {
         // This more specific font property overrides the global property
@@ -108,7 +124,15 @@ var d3 = new Chart(chartThree, {
       fontFamily: "Lato",
       fontColor: 'black'
     },
-  plugins: {p1: false, p2: false, p3: true},
+    plugins: {
+      p1: false, p2: false, p3: true,
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      }
+
+    },
     legend: {
       labels: {
         // This more specific font property overrides the global property
