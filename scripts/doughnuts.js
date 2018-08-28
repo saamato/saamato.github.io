@@ -20,7 +20,7 @@ var myChart = new Chart(ctx, {
     title: {
       display: true,
       text: 'Why do users use cloud-based storage services',
-      fontSize: 20,
+      fontSize: 15,
       fontFamily: "Lato",
       fontColor: 'black'
     },
@@ -70,7 +70,7 @@ var d2 = new Chart(chartTwo, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      fontSize: 20,
+      fontSize: 15,
       text: 'What feature is most important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
@@ -119,7 +119,7 @@ var d3 = new Chart(chartThree, {
     cutoutPercentage: 75,
     title: {
       display: true,
-      fontSize: 20,
+      fontSize: 15,
       text: 'What feature is least important to a user',
       fontFamily: "Lato",
       fontColor: 'black'
@@ -155,9 +155,9 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Playfair Display";
+    ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "middle";
+    ctx.textBaseline = "top";
 
     var text = "60.7%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),
@@ -177,9 +177,9 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Playfair Display";
+    ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "middle";
+    ctx.textBaseline = "top";
 
     var text = "50%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),
@@ -199,9 +199,9 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Playfair Display";
+    ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "middle";
+    ctx.textBaseline = "top";
 
     var text = "64.3%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),
