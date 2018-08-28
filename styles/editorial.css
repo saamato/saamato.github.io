@@ -1,7 +1,3 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 /* text styles */
 body {
   background-color: #FDFAF3;
@@ -12,27 +8,25 @@ body {
 p {
   font-size: 20px;
   line-height: 30px;
-  width: 750px;
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: 900;
-  margin-top: -15px;
   margin-bottom: -5px;
 }
 
 .label {
   font-size: 15px;
-  font-family: "Franklin Gothic Book", san-sans-serif;
-  padding-top: 30px;
+  font-family: "Franklin Gothic Book", sans-serif;
+  margin-bottom: -25px;
 }
 
-/** Nav bar **/
+/** Nav Bar **/
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 200px;
+    height: 150px;
     margin: auto;
     padding-top: 50px;
     width: 100%;
@@ -63,6 +57,7 @@ li {
   padding-left: 50px;
 }
 
+
 /* Link styles */
 a {
   text-decoration: none;
@@ -78,6 +73,14 @@ a:active { color:#000000; } /* selected */
   padding-left: 110px;
   padding-right: 110px;
   padding-bottom: 50px;
+}
+
+.wrapper {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 50px;
 }
 
 /** Footer style **/
@@ -98,49 +101,46 @@ li.contact {
   font-size: 20px;
 }
 
-/** grid and image sizes **/
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-img.editorial {
-  margin-right: 1.5%;
-  margin-bottom: 1%;
-  width: 32%;
-}
-
-img.editorialR {
-  float: right;
-  margin-bottom: 1%;
-  width: 32%;
-}
-
-img.editorial_wide {
-  margin-bottom: 1%;
-  width: 100%;
-}
-
-img.editorial_half {
-  float: left;
-  margin-right: 1.5%;
-  margin-bottom: 1%;
-  width: 48.75%;
-}
-
-img.editorial_halfR {
-  float: right;
-  margin-bottom: 1%;
-  width: 48.75%;
-
-}
-
-.row {
-  padding-bottom: 20px;
-}
 .icon {
   width: 40px;
+}
+
+div.intro {
+  grid-column: 1/5;
+}
+
+img.redeye1 {
+  grid-column: 1/3;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img.redeye2 {
+  grid-column: 3/5;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img.redeye3 {
+  grid-column: 5/7;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img.DT {
+  grid-column: 1/7;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img.DT1 {
+  grid-column: 1/4;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img.DT2  {
+  grid-column: 4/7;
+  width: 100%;
+  padding-bottom: 50px;
 }
