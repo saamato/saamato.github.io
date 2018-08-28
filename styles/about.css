@@ -108,19 +108,24 @@ img.sara {
 }
 
 /** Footer style **/
+/* footer style with icons */
+
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
-  height: 150px;
-  margin-top: 25px;
-  padding-top: 25px;
+  height: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
+  width: 100%;
+
 }
 
-ul.contact {
-  list-style-type: none;
+.socialmedia {
+  font-size: 40px;
   margin: auto;
-  width: 600px;
+  text-align: center;
+
 }
 
-li.contact {
-  font-size: 20px;
+.fa-envelope-square, .fa-facebook-square, .fa-github-square, .fa-linkedin {
+  padding-right: 75px;
 }
