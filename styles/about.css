@@ -38,6 +38,7 @@ h2 {
   grid-column-gap: 50px;
 }
 
+/*grid sizes*/
 .about {
   grid-column: 1/4;
 }

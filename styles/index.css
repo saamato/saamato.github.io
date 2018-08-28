@@ -72,6 +72,14 @@ li.navbar {
   padding-left: 50px;
 }
 
+/* container and wrapper*/
+
+.container {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+}
+
 .wrapper {
   padding-top: 20px;
   display: grid;
@@ -105,12 +113,13 @@ section.hello {
   height: 100vh;
 }
 
-/* container*/
+section.work {
+  grid-column: 1/4;
+  padding-top: 50px;
+}
 
-.container {
-  padding-left: 110px;
-  padding-right: 110px;
-  padding-bottom: 50px;
+section.beespace {
+  grid-column: 1/7;
 }
 
 /* button style */
@@ -141,9 +150,10 @@ a.button {
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
   height: 150px;
-  width: 100%;
   margin-top: 50px;
   padding-top: 25px;
+  width: 100%;
+
 }
 
 ul.contact {
@@ -162,32 +172,25 @@ li.contact {
   width: 40px;
 }
 
-section.work {
-  grid-column: 1/4;
-  padding-top: 50px;
-}
+/* images */
 
 img.newspapers {
   grid-column: 1/7;
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
 }
 
 img.bee {
   grid-column: 1/5;
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
 }
 
 img.bee1 {
   grid-column: 5/7;
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
 
-}
-
-section.beespace {
-  grid-column: 1/7;
 }
 
 /* STYLES FOR TYPING HELLO */

@@ -155,7 +155,7 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Abril Fatface";
+    ctx.font = fontSize + "em Playfair Display";
     ctx.fillStyle = "#93d0d1";
     ctx.textBaseline = "middle";
 
@@ -177,7 +177,7 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Abril Fatface";
+    ctx.font = fontSize + "em Playfair Display";
     ctx.fillStyle = "#93d0d1";
     ctx.textBaseline = "middle";
 
@@ -199,7 +199,7 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Abril Fatface";
+    ctx.font = fontSize + "em Playfair Display";
     ctx.fillStyle = "#93d0d1";
     ctx.textBaseline = "middle";
 
