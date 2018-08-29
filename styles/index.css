@@ -7,14 +7,14 @@ body {
 }
 
 p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 h1 {
   color: #EBD341;
   font-family: 'Playfair Display', serif;
-  font-size: 150px;
+  font-size: 100px;
   font-weight: 900;
   margin-top: -1px;
   }
@@ -28,23 +28,23 @@ h1 {
   }
 
 p.intro {
-  font-size: 40px;
-  margin-top: -100px;
-  line-height: 50px;
+  font-size: 25px;
+  margin-top: -75px;
+  line-height: 35px;
   width: auto;
 }
 
 .label {
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Franklin Gothic Book", sans-serif;
 }
 
 /** Nav Bar **/
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 150px;
+    height: 75px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 25px;
     width: 100%;
 
 }
@@ -58,35 +58,35 @@ nav {
 }
 
 .logo {
-  margin-left: -20px;
-  width: 120px;
+  margin-left: -10px;
+  width: 60px;
 }
 
 ul.right {
   list-style-type: none;
 }
 
-li.navbar {
+li {
   float: left;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-left: 50px;
+  font-size: 15px;
+  padding-left: 20px;
 }
-
 /* container and wrapper*/
 
+/* Container */
 .container {
-  padding-left: 110px;
-  padding-right: 110px;
-  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+  margin: auto;
 }
 
+/* wrapper */
 .wrapper {
-  padding-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-column-gap: 50px;
+  grid-column-gap: 10px;
 }
 
 /* link styles */
@@ -102,7 +102,7 @@ a:active { color:#000000; } /* selected */
 
 /*down arrow*/
 .arrow {
-  font-size: 3em;
+  font-size: 2em;
   padding-top: 50px;
   text-align: center;
 }
@@ -110,7 +110,8 @@ a:active { color:#000000; } /* selected */
 
 /*section information */
 section.hello {
-  grid-column: 1/7;
+  grid-column: 1/4;
+  width: 100%;
   height: 100vh;
 }
 
@@ -120,7 +121,7 @@ section.work {
 }
 
 section.beespace {
-  grid-column: 1/7;
+  grid-column: 1/4;
 }
 
 /* button style */
@@ -132,12 +133,12 @@ section.beespace {
     display: inline-block;
     font-family: "Franklin Gothic Book", sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1;
     padding: 20px;
     text-transform: uppercase;
     text-align: center;
-    width: 175px;
+    width: 100px;
 
 }
 
@@ -150,40 +151,42 @@ a.button {
 
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
-  height: 100px;
-  margin-top: 50px;
-  padding-top: 50px;
+  height: 50px;
+  margin-top: 25px;
+  padding-top: 25px;
   width: 100%;
 
 }
 
 .socialmedia {
-  font-size: 40px;
+  font-size: 30px;
   margin: auto;
   text-align: center;
 
 }
 
 .fa-envelope-square, .fa-facebook-square, .fa-github-square, .fa-linkedin {
-  padding-right: 75px;
+  padding-right: 25px;
 }
+
 
 /* images */
 
 img.newspapers {
-  grid-column: 1/7;
+  grid-column: 1/4;
   padding-top: 50px;
   width: 100%;
 }
 
 img.bee {
-  grid-column: 1/5;
-  padding-top: 50px;
+  grid-column: 1/4;
+  padding-top: 25px;
   width: 100%;
 }
 
 img.bee1 {
-  grid-column: 5/7;
+  display: none;
+  grid-column: 3/4;
   padding-top: 50px;
   width: 100%;
 

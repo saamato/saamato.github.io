@@ -3,12 +3,11 @@ body {
   background-color: #FDFAF3;
   font-family: "Lato", sans-serif;
   margin: auto;
-  width: 100%;
 }
 
 p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 p.email {
@@ -16,49 +15,45 @@ p.email {
 }
 
 h2 {
-  line-height: 35px;
+  line-height: 55px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 
 /* Container */
 .container {
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 12px;
-  margin: auto;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
 }
 
 /* wrapper */
 .wrapper {
+  padding-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-column-gap: 10px;
-  width: 100%;
-
+  grid-column-gap: 50px;
 }
 
 /*grid sizes*/
 .about {
   grid-column: 1/4;
-  width: 100%;
 }
 
 .about1 {
-  grid-column: 1/4;
-  width: 100%;
+  grid-column: 4/7;
 }
 
 
 /** Nav Bar **/
 nav {
     border-bottom: 1px solid hsl(0, 0%, 50%);
-    height: 75px;
+    height: 150px;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 50px;
     width: 100%;
 
 }
@@ -72,8 +67,8 @@ nav {
 }
 
 .logo {
-  margin-left: -10px;
-  width: 60px;
+  margin-left: -20px;
+  width: 120px;
 }
 
 ul.right {
@@ -81,11 +76,10 @@ ul.right {
 }
 
 li {
-  list-style-type: none;
-text-align: right;
   float: left;
-  font-size: 15px;
-  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 /* Link info */
@@ -100,12 +94,17 @@ a:active { color:#000000; } /* selected */
 
 
 
+/* Images */
+.icon {
+  width: 40px;
+}
+
 img {
   width: 100%;
 }
 
 img.sara {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 /** Footer style **/
@@ -113,20 +112,20 @@ img.sara {
 
 #footer {
   border-top: 1px solid hsl(0, 0%, 50%);
-  height: 50px;
-  margin-top: 25px;
-  padding-top: 25px;
+  height: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
   width: 100%;
 
 }
 
 .socialmedia {
-  font-size: 30px;
+  font-size: 40px;
   margin: auto;
   text-align: center;
 
 }
 
 .fa-envelope-square, .fa-facebook-square, .fa-github-square, .fa-linkedin {
-  padding-right: 25px;
+  padding-right: 75px;
 }
