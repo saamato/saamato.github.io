@@ -1,11 +1,15 @@
 /*intro*/
 p.intro {
-  font-size: 25px;
-  margin-top: -75px;
-  line-height: 35px;
+  font-size: 22px;
+  margin-top: -60px;
+  line-height: 32px;
   width: auto;
 }
 
+
+p.introdesktop {
+  display: none;
+}
 
 /*down arrow*/
 .arrow {
@@ -17,14 +21,14 @@ p.intro {
 
 /*section information */
 section.hello {
-  grid-column: 1/4;
+  grid-column: 1/5;
   width: 100%;
   height: 100vh;
 }
 
 section.work {
   grid-column: 1/5;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 section.beespace {
@@ -36,7 +40,7 @@ section.beespace {
 
 img.newspapers {
   grid-column: 1/5;
-  padding-top: 50px;
+  padding-top: 25px;
   width: 100%;
 }
 

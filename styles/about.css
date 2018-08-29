@@ -1,6 +1,5 @@
 /*text*/
 p.email {
-  margin-top: -20px;
 }
 
 h2 {
@@ -9,12 +8,12 @@ margin-top: 20px;
 
 /*grid sizes*/
 .about {
-  grid-column: 1/4;
+  grid-column: 1/5;
   width: 100%;
 }
 
 .about1 {
-  grid-column: 1/4;
+  grid-column: 1/5;
   width: 100%;
 }
 
