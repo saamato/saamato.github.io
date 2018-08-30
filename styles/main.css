@@ -100,7 +100,7 @@ h1 {
   /* wrapper */
   .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 10px;
   }
@@ -168,3 +168,131 @@ h1 {
   .fa-envelope-square, .fa-facebook-square, .fa-github-square, .fa-linkedin {
     padding-right: 25px;
   }
+
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 95px;
+  margin-top: 10px;
+}
+
+.wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+
+}
+
+.label {
+  font-size: 15px;
+  font-family: "Franklin Gothic Book", sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 120px;
+    margin: auto;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+li {
+font-size: 16px;
+padding-top: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.arrow {
+  font-size: 2.5em;
+}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+.container {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 95px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 900;
+  margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+.wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+
+}
+
+.label {
+  font-size: 15px;
+  font-family: "Franklin Gothic Book", sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 125px;
+    margin: auto;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+li {
+font-size: 20px;
+padding-top: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.arrow {
+  font-size: 3em;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+.container {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 150px;
+  margin-top: 30px;
+}
+
+}

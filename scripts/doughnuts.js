@@ -146,68 +146,68 @@ var d3 = new Chart(chartThree, {
 
 });
 
-var plugin = Chart.pluginService.register({
-  id: "p1",
-  beforeDraw: function(chart) {
-    var width = chart.chart.width,
-        height = chart.chart.height,
-        ctx = chart.chart.ctx;
+// var plugin = Chart.pluginService.register({
+//   id: "p1",
+//   beforeDraw: function(chart) {
+//     var width = chart.chart.width,
+//         height = chart.chart.height,
+//         ctx = chart.chart.ctx;
+//
+//     ctx.restore();
+//     var fontSize = (height / 114).toFixed(2);
+//     ctx.font = fontSize + "em Lato";
+//     ctx.fillStyle = "#93d0d1";
+//     ctx.textBaseline = "top";
+//
+//     var text = "60.7%",
+//         textX = Math.round((width - ctx.measureText(text).width) / 2),
+//         textY = height / 1.8;
+//
+//     ctx.fillText(text, textX, textY);
+//     ctx.save();
+//   }
+// });
+//
+// var plugin = Chart.pluginService.register({
+//   id: "p2",
+//   beforeDraw: function(chart) {
+//     var width = chart.chart.width,
+//         height = chart.chart.height,
+//         ctx = chart.chart.ctx;
+//
+//     ctx.restore();
+//     var fontSize = (height / 114).toFixed(2);
+//     ctx.font = fontSize + "em Lato";
+//     ctx.fillStyle = "#93d0d1";
+//     ctx.textBaseline = "top";
+//
+//     var text = "50%",
+//         textX = Math.round((width - ctx.measureText(text).width) / 2),
+//         textY = height / 1.8;
+//
+//     ctx.fillText(text, textX, textY);
+//     ctx.save();
+//   }
+// });
 
-    ctx.restore();
-    var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
-
-    var text = "60.7%",
-        textX = Math.round((width - ctx.measureText(text).width) / 2),
-        textY = height / 1.8;
-
-    ctx.fillText(text, textX, textY);
-    ctx.save();
-  }
-});
-
-var plugin = Chart.pluginService.register({
-  id: "p2",
-  beforeDraw: function(chart) {
-    var width = chart.chart.width,
-        height = chart.chart.height,
-        ctx = chart.chart.ctx;
-
-    ctx.restore();
-    var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
-
-    var text = "50%",
-        textX = Math.round((width - ctx.measureText(text).width) / 2),
-        textY = height / 1.8;
-
-    ctx.fillText(text, textX, textY);
-    ctx.save();
-  }
-});
-
-var plugin = Chart.pluginService.register({
-  id: "p3",
-  beforeDraw: function(chart) {
-    var width = chart.chart.width,
-        height = chart.chart.height,
-        ctx = chart.chart.ctx;
-
-    ctx.restore();
-    var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
-
-    var text = "64.3%",
-        textX = Math.round((width - ctx.measureText(text).width) / 2),
-        textY = height / 1.8;
-
-    ctx.fillText(text, textX, textY);
-    ctx.save();
-  }
-});
+// var plugin = Chart.pluginService.register({
+//   id: "p3",
+//   beforeDraw: function(chart) {
+//     var width = chart.chart.width,
+//         height = chart.chart.height,
+//         ctx = chart.chart.ctx;
+//
+//     ctx.restore();
+//     var fontSize = (height / 114).toFixed(2);
+//     ctx.font = fontSize + "em Lato";
+//     ctx.fillStyle = "#93d0d1";
+//     ctx.textBaseline = "top";
+//
+//     var text = "64.3%",
+//         textX = Math.round((width - ctx.measureText(text).width) / 2),
+//         textY = height / 1.8;
+//
+//     ctx.fillText(text, textX, textY);
+//     ctx.save();
+//   }
+// });
