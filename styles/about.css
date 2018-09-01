@@ -40,18 +40,3 @@ img.sara {
   }
 
 }
-
-/* Media Queries */
-@media screen and (min-width: 1025px) {
-  /*grid sizes*/
-  .about {
-    grid-column: 1/7;
-    width: 100%;
-  }
-
-  .about1 {
-    grid-column: 7/14;
-    width: 100%;
-  }
-
-}
