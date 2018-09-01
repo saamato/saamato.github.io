@@ -16,7 +16,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-size: 85px;
   font-weight: 900;
-  margin-top: -1px;
+  margin-top: 10px;
   }
 
   h2 {
@@ -31,6 +31,7 @@ h1 {
     font-family: "Playfair Display", serif;
     font-size: 20px;
     font-weight: 900;
+    margin-top: 30px;
     margin-bottom: -5px;
   }
 
@@ -151,7 +152,7 @@ h1 {
 
   #footer {
     border-top: 1px solid hsl(0, 0%, 50%);
-    height: 50px;
+    height: 75px;
     margin-top: 25px;
     padding-top: 25px;
     width: 100%;
@@ -160,7 +161,8 @@ h1 {
 
   .socialmedia {
     font-size: 30px;
-    margin: auto;
+    padding-top: 10px;
+    /* margin: auto; */
     text-align: center;
 
   }
