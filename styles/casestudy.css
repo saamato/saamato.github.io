@@ -320,6 +320,8 @@ p.color-box3 {
 
   img.woman {
     grid-column: 1/7;
+    padding-bottom: 10px;
+
   }
 
   img.man {

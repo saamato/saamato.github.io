@@ -190,6 +190,7 @@ h1 {
 h2 {
   margin-top: 0;
 }
+
 h3 {
   font-size: 25px;
 }
@@ -235,13 +236,13 @@ h1 {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 55px;
   margin-bottom: -5px;
 }
 
 h3  {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: -5px;
 }
 
