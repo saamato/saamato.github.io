@@ -2,10 +2,6 @@
 p.email {
 }
 
-h2 {
-margin-top: 20px;
-}
-
 /*grid sizes*/
 .about {
   grid-column: 1/13;
@@ -30,7 +26,7 @@ img.sara {
 @media screen and (min-width: 768px) {
   /*grid sizes*/
   .about {
-    grid-column: 1/10;
+    grid-column: 1/13;
     width: 100%;
   }
 
@@ -52,6 +48,11 @@ img.sara {
   .about1 {
     grid-column: 7/13;
     width: 100%;
+  }
+
+  img.sara {
+    padding-top: 0px;
+    padding-bottom: 25px;
   }
 
 }

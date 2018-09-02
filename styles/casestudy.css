@@ -88,7 +88,6 @@ section.intro {
   background-color: #faf3e1;
   grid-column: 1/13;
   padding: 30px;
-  margin-bottom: 25px;
 
 
 }
@@ -96,13 +95,11 @@ section.intro {
 .jessica {
   grid-column: 1/13;
   text-align: center;
-  padding-top: 30px;
 }
 
 .ryan {
   grid-column: 1/13;
   text-align: center;
-  padding-top: 20px;
 
 }
 
@@ -222,12 +219,12 @@ p.color-box3 {
 
   /*sections*/
   section.intro {
-    grid-column: 1/10;
+    grid-column: 1/13;
     width: 100%;
   }
 
   .roles {
-    grid-column: 1/13;
+    grid-column: 1/10;
   }
 
   .WID {
@@ -247,10 +244,13 @@ p.color-box3 {
 
   .problem {
     grid-column: 1/7;
+    padding-top: 20px;
+
   }
 
   .solution {
     grid-column:7/13;
+
   }
 
   .chart1 {
@@ -268,10 +268,16 @@ p.color-box3 {
 
   .googledrive {
     grid-column: 1/5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
   }
 
   .dropbox {
     grid-column: 5/9;
+    margin-bottom: 0px;
+
 
   }
 
@@ -287,14 +293,13 @@ p.color-box3 {
 
   .ryan {
     grid-column: 7/13;
-    margin-top: 25px;
 
   }
 
 
   /* section main*/
   .main {
-    grid-column: 1/10;
+    grid-column: 1/13;
   }
 
   /*images*/
@@ -387,7 +392,13 @@ p.color-box3 {
   }
 
   .main {
-    grid-column: 1/9;
+    grid-column: 1/8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  section.intro {
+    grid-column: 1/10;
   }
 
 }

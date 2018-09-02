@@ -86,6 +86,7 @@ h1 {
     font-size: 15px;
     padding-top: 20px;
     padding-left: 20px;
+
   }
   /* container and wrapper*/
 
@@ -183,11 +184,6 @@ h1 {
 
 h1 {
   font-size: 95px;
-  margin-top: 10px;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 h3 {
@@ -203,7 +199,7 @@ h3 {
 nav {
   height: 75px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   margin-bottom: 25px;
 
 }
@@ -213,8 +209,8 @@ nav {
 }
 
 li {
-font-size: 16px;
-padding-top: 20px;
+font-size: 18px;
+padding-top: 35px;
 }
 
 }
@@ -230,18 +226,17 @@ padding-top: 20px;
 h1 {
   font-size: 110px;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 h2 {
   font-size: 35px;
   line-height: 45px;
-  margin-bottom: -5px;
+  margin-top: -10px;
 }
 
 h3  {
-  font-size: 25px;
-  margin-bottom: -5px;
+  font-size: 30px;
 }
 
 p {
@@ -272,7 +267,7 @@ nav {
 
 li {
 font-size: 20px;
-padding-top: 20px;
+padding-top: 35px;
 padding-right: 10px;
 }
 

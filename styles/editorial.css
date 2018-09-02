@@ -5,11 +5,6 @@ div.intro {
   width: 100%;
 }
 
-div.images {
-  grid-column: 1/13;
-  width: 100%;
-}
-
 /*images*/
 
 img.redeye1 {
@@ -31,7 +26,7 @@ img.redeye3 {
 }
 
 img.DT {
-  grid-column: 1/5;
+  grid-column: 1/13;
   padding-bottom: 25px;
   width: 100%;
 
@@ -53,56 +48,34 @@ img.DT2  {
 /* Media Queries */
 @media screen and (min-width: 768px) {
   div.intro {
-    grid-column: 1/10;
+    grid-column: 1/13;
     width: 100%;
-  }
-
-  div.images {
-    grid-column: 1/7;
-    width: 100%;
-  }
-
-  h2 {
-    padding-top: 20px;
   }
 
   /*images*/
 
   img.redeye1 {
     grid-column: 1/5;
-    padding-bottom: 25px;
-    width: 100%;
+    padding-top: 25px;
   }
 
   img.redeye2 {
     grid-column: 5/9;
-    padding-bottom: 25px;
-    width: 100%;
+    padding-top: 25px;
   }
 
   img.redeye3 {
     grid-column: 9/13;
-    padding-bottom: 25px;
-    width: 100%;
-  }
-
-  img.DT {
-    grid-column: 1/13;
-    padding-bottom: 25px;
-    width: 100%;
-
+    padding-top: 25px;
   }
 
   img.DT1 {
     grid-column: 1/7;
-    padding-bottom: 25px;
-    width: 100%;
+
   }
 
   img.DT2  {
     grid-column: 7/13;
-    padding-bottom: 25px;
-    width: 100%;
 
   }
 
