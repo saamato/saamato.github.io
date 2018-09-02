@@ -1,11 +1,7 @@
 /* text styles */
-h2 {
-    margin-top: 20px;
-}
-
   h5.test {
-    grid-column: 1/5;
-    padding-bottom: 50px;
+    grid-column: 1/13;
+    padding-bottom: 10px;
   }
 
   .h5 {
@@ -29,16 +25,21 @@ section.intro {
 .WID {
   grid-column: 1/13;
   text-align: center;
+  padding-top: 20px;
+
 }
 
 .WID2   {
   grid-column: 1/13;
   text-align: center;
+  padding-top: 20px;
 }
 
 .WID3 {
   grid-column: 1/13;
   text-align: center;
+  padding-top: 20px;
+
 }
 
 .problem {
@@ -47,6 +48,7 @@ section.intro {
 
 .solution {
   grid-column:1/13;
+  padding-top: 20px;
 }
 
 .chart1 {
@@ -68,7 +70,9 @@ section.intro {
   background-color: #faf3e1;
   grid-column: 1/13;
   margin-bottom: 25px;
+  margin-top: 20px;
   padding: 30px;
+
 
 }
 
@@ -92,7 +96,7 @@ section.intro {
 .jessica {
   grid-column: 1/13;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .ryan {
@@ -105,14 +109,12 @@ section.intro {
 .traits {
   padding-top: 20px;
   grid-column: 1/13;
-  text-align: center;
 
 }
 
 .traits1 {
   padding-top: 20px;
   grid-column: 1/13;
-  text-align: center;
 
 }
 
@@ -122,7 +124,8 @@ section.intro {
 
 /* section main*/
 .main {
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   grid-column: 1/13;
   width: 100%;
 }
@@ -153,23 +156,19 @@ img.ic {
 
 img.woman {
   grid-column: 1/13;
-  margin-top: 25px;
+  padding-bottom: 10px;
   width:100%;
 }
 
 img.man {
   grid-column: 1/13;
+  padding-bottom: 10px;
   width: 100%;
-}
-
-img.beelogo {
-  grid-column: 1/13;
-  padding-top: 50px;
-  width: 75%;
 }
 
 img.sketching {
   grid-column: 1/13;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -202,22 +201,19 @@ img.pt2, .pt4, .pt6 {
 
 p.color-box1 {
   grid-column: 1/5;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 10px;
   text-align: center;
 }
 
 p.color-box2 {
   grid-column: 5/9;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 10px;
   text-align: center;
 }
 
 p.color-box3 {
   grid-column: 9/13;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 10px;
   text-align: center;
 }
 
