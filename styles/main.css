@@ -251,9 +251,8 @@ p {
 
 }
 
-.label {
+p.label {
   font-size: 15px;
-  font-family: "Franklin Gothic Book", sans-serif;
 }
 
 nav {
