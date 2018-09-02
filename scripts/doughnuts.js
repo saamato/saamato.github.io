@@ -34,6 +34,8 @@ var myChart = new Chart(ctx, {
 
     },
     legend: {
+      display: false,
+
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
@@ -85,6 +87,8 @@ var d2 = new Chart(chartTwo, {
 
     },
     legend: {
+      display: false,
+
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
@@ -134,8 +138,10 @@ var d3 = new Chart(chartThree, {
 
     },
     legend: {
+      display: false,
+
       labels: {
-        // This more specific font property overrides the global property
+         // This more specific font property overrides the global property
         fontColor: 'black',
         fontFamily: "Lato",
         fontSize: 15,
@@ -157,7 +163,7 @@ var plugin = Chart.pluginService.register({
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
+    // ctx.textBaseline = "middle";
 
     var text = "60.7%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),
@@ -179,7 +185,7 @@ var plugin = Chart.pluginService.register({
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
+    // ctx.textBaseline = "middle";
 
     var text = "50%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),
@@ -201,7 +207,7 @@ var plugin = Chart.pluginService.register({
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Lato";
     ctx.fillStyle = "#93d0d1";
-    ctx.textBaseline = "top";
+    // ctx.textBaseline = "middle";
 
     var text = "64.3%",
         textX = Math.round((width - ctx.measureText(text).width) / 2),

@@ -131,6 +131,8 @@ section.intro {
 
 img.beespace {
   grid-column: 1/13;
+  padding-top: 20px;
+  margin-bottom: -50px;
   width: 100%;
 }
 
@@ -302,7 +304,7 @@ p.color-box3 {
   /*images*/
 
   img.beespace {
-    grid-column: 1/13;
+    grid-column: 3/11;
   }
 
   img.gdl {
@@ -391,6 +393,5 @@ p.color-box3 {
   .main {
     grid-column: 1/9;
   }
-
 
 }

@@ -139,6 +139,13 @@ img.bee1 {
 }
 
 @media screen and (min-width: 1025px) {
+  p.introdesktop {
+    font-size: 30px;
+    margin-top: -60px;
+    line-height: 35px;
+    width: auto;
+    }
+
   section.work {
     grid-column: 1/9;
   }
@@ -146,12 +153,3 @@ img.bee1 {
   section.beespace {
     grid-column: 1/9;
   }
-
-  p.introdesktop {
-    display:block;
-    font-size: 25px;
-    line-height: 35px;
-    width: auto;
-    }
-
-}
