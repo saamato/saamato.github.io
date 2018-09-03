@@ -17,13 +17,13 @@ var myChart = new Chart(ctx, {
   },
   options: {
     cutoutPercentage: 75,
-    title: {
-      display: true,
-      text: 'Why do users use cloud-based storage services',
-      fontSize: 15,
-      fontFamily: "Lato",
-      fontColor: 'black'
-    },
+    // title: {
+    //   display: true,
+    //   text: 'Why do users use cloud-based storage services',
+    //   fontSize: 15,
+    //   fontFamily: "Lato",
+    //   fontColor: 'black'
+    // },
     plugins: {
       p1: true, p2: false, p3: false,
       deferred: {
@@ -70,13 +70,13 @@ var d2 = new Chart(chartTwo, {
   },
   options: {
     cutoutPercentage: 75,
-    title: {
-      display: true,
-      fontSize: 15,
-      text: 'What feature is most important to a user',
-      fontFamily: "Lato",
-      fontColor: 'black'
-    },
+    // title: {
+    //   display: true,
+    //   fontSize: 15,
+    //   text: 'What feature is most important to a user',
+    //   fontFamily: "Lato",
+    //   fontColor: 'black'
+    // },
     plugins: {
       p1: false, p2: true, p3: false,
       deferred: {
@@ -121,13 +121,13 @@ var d3 = new Chart(chartThree, {
   },
   options: {
     cutoutPercentage: 75,
-    title: {
-      display: true,
-      fontSize: 15,
-      text: 'What feature is least important to a user',
-      fontFamily: "Lato",
-      fontColor: 'black'
-    },
+    // title: {
+    //   display: true,
+    //   fontSize: 15,
+    //   text: 'What feature is least important to a user',
+    //   fontFamily: "Lato",
+    //   fontColor: 'black'
+    // },
     plugins: {
       p1: false, p2: false, p3: true,
       deferred: {

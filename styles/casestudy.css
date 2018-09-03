@@ -10,8 +10,8 @@
   }
 
   p.chart {
-    padding-top: 10px;
     text-align: center;
+    padding-bottom: 10px;
   }
 
   p.bold {
@@ -252,7 +252,7 @@ p.color-box3 {
   p.chart {
     font-size: 16px;
     line-height: 26px;
-    padding-top: 25px;
+    padding-top: 10px;
   }
 
   .googledrive {
