@@ -47,10 +47,7 @@ img.DT2  {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-  div.intro {
-    grid-column: 1/13;
-    width: 100%;
-  }
+
 
   /*images*/
 

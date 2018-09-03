@@ -21,7 +21,6 @@ p.introdesktop {
 /*section information */
 section.hello {
   grid-column: 1/13;
-  width: 100%;
   height: 100vh;
 }
 
@@ -86,10 +85,6 @@ img.bee1 {
 
   p.intro {
     display: none;
-    font-size: 22px;
-    margin-top: -60px;
-    line-height: 32px;
-    width: auto;
   }
 
   p.introdesktop {
@@ -112,9 +107,7 @@ img.bee1 {
 
     }
 
-    section.hello {
-      grid-column: 1/13;
-    }
+
 
     section.work {
       grid-column: 1/10;

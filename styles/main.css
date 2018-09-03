@@ -252,12 +252,6 @@ p {
 }
 
 
-.wrapper {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-
-}
-
 p.label {
   font-size: 15px;
 }

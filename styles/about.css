@@ -22,32 +22,16 @@ img.sara {
   padding-top: 20px;
 }
 
-/* Media Queries */
-@media screen and (min-width: 768px) {
-  /*grid sizes*/
-  .about {
-    grid-column: 1/13;
-    width: 100%;
-  }
-
-  .about1 {
-    grid-column: 1/13;
-    width: 100%;
-  }
-
-}
 
 /* Media Queries */
 @media screen and (min-width: 1025px) {
   /*grid sizes*/
   .about {
     grid-column: 1/7;
-    width: 100%;
   }
 
   .about1 {
     grid-column: 7/13;
-    width: 100%;
   }
 
   img.sara {
