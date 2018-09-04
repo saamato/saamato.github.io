@@ -191,7 +191,6 @@ img.pt2, .pt4, .pt6 {
 }
 
 p.color-box1 {
-  color: white;
   grid-column: 1/5;
   padding: 10px;
   text-align: center;

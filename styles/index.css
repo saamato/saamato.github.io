@@ -102,6 +102,12 @@ img.bee1 {
       grid-column: 1/9;
     }
 
+    img.bee {
+      grid-column: 1/9;
+      padding-top: 25px;
+      width: 100%;
+    }
+
     img.bee1 {
       display: grid;
       grid-column: 9/13;
