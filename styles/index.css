@@ -56,6 +56,10 @@ img.bee1 {
 
 }
 
+.linkphoto {
+  grid-column: 1/13;
+}
+
 /* STYLES FOR TYPING HELLO */
 .greeting h1 {
   color: #EBD341;
@@ -94,9 +98,8 @@ img.bee1 {
     width: auto;
     }
 
-    img.bee {
+    .linkphoto {
       grid-column: 1/9;
-      width: 100%;
     }
 
     img.bee1 {
@@ -104,9 +107,7 @@ img.bee1 {
       grid-column: 9/13;
       margin-top: -25px;
       width: 100%;
-
     }
-
 
 
     section.work {
