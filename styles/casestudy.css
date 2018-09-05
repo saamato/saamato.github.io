@@ -388,6 +388,10 @@ p.color-box3 {
     padding-bottom: 50px;
   }
 
+  .problem, .solution {
+    padding-top:50px;
+  }
+
 
   section.intro {
     grid-column: 1/10;
