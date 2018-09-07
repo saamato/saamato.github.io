@@ -1,4 +1,9 @@
 /* text styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FDFAF3;
   font-family: 'Lato', sans-serif;
