@@ -1,6 +1,8 @@
 /*div intro*/
 
 div.intro {
+  margin-top: 25px;
+  margin-bottom: 50px;
   grid-column: 1/13;
   width: 100%;
 }
@@ -9,7 +11,7 @@ div.intro {
 
 img.redeye1 {
   grid-column: 1/13;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   width: 100%;
 }
 

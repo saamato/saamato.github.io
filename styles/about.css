@@ -5,6 +5,7 @@ p.email {
 /*grid sizes*/
 .about {
   grid-column: 1/13;
+  margin-top: 25px;
   width: 100%;
 }
 
@@ -19,7 +20,8 @@ img {
 }
 
 img.sara {
-  padding-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 

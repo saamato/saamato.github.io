@@ -21,12 +21,17 @@ p.introdesktop {
 /*section information */
 section.hello {
   grid-column: 1/13;
-  height: 100vh;
+  height: calc(100vh - 140px);
 }
 
 section.work {
   grid-column: 1/13;
-  padding-top: 15px;
+  margin-top: 15px;
+}
+
+section.editorial {
+  grid-column: 1/13;
+  margin-top: 15px;
 }
 
 section.beespace {
@@ -38,7 +43,7 @@ section.beespace {
 
 img.newspapers {
   grid-column: 1/13;
-  padding-top: 25px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -136,9 +141,14 @@ img.bee1 {
       grid-column: 1/10;
     }
 
+    section.editorial {
+      grid-column: 1/10;
+    }
+
     img.newspapers {
       grid-column: 1/13;
-      padding-top: 25px;
+      margin-top: 50px;
+      margin-bottom: 25px;
       width: 100%;
     }
 
@@ -146,9 +156,9 @@ img.bee1 {
 
 @media screen and (min-width: 1025px) {
   p.introdesktop {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: -60px;
-    line-height: 35px;
+    line-height: 45px;
     width: auto;
     }
 
