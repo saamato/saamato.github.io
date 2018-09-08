@@ -404,6 +404,8 @@ p.color-box3 {
 
   .main {
     grid-column: 1/8;
+    margin: 75px 0 25px 0;
+
 
   }
 
