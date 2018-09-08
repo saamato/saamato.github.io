@@ -2,6 +2,12 @@
 p.email {
 }
 
+h2.me {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
 /*grid sizes*/
 .about {
   grid-column: 1/13;
@@ -20,15 +26,9 @@ img {
 }
 
 img.sara {
-  margin-top: 25px;
   margin-bottom: 10px;
 }
 
-/* @media screen and (min-width: 768px) {
-  .about, .about1 {
-    grid-column: 3/11;
-  }
-} */
 
 
 /* Media Queries */
@@ -36,15 +36,23 @@ img.sara {
   /*grid sizes*/
   .about {
     grid-column: 1/7;
+    margin-top: 40px;
   }
 
   .about1 {
     grid-column: 7/13;
+    margin-top: 40px;
+  }
+
+
+  h2.me {
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 50px;
   }
 
   img.sara {
-    padding-top: 0px;
-    padding-bottom: 25px;
+    margin-bottom: 35px;
   }
 
 }

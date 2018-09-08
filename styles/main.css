@@ -20,6 +20,7 @@ h1 {
   color: #EBD341;
   font-family: 'Playfair Display', serif;
   margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 85px;
   font-weight: 900;
   }
@@ -75,7 +76,7 @@ h1 {
   nav {
       border-bottom: 1px solid hsl(0, 0%, 50%);
       height: 50px;
-      margin-top: 25px;
+      margin-top: 40px;
       padding-bottom: 25px;
       margin-bottom: 25px;
       width: 100%;
@@ -109,8 +110,8 @@ h1 {
 
   /* Container */
   .container {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 12px;
     margin: auto;
   }
@@ -123,6 +124,7 @@ h1 {
     grid-column-gap: 10px;
   }
 
+
   /* link styles */
   a {
     text-decoration: none;
@@ -133,13 +135,6 @@ h1 {
   a:hover { color:#C35E2C; } /* mouse over */
   a:active { color:#000000; } /* selected */
 
-
-  /*down arrow*/
-  .fa-chevron-circle-down {
-    font-size: 1em;
-    padding-top: 50px;
-    text-align: center;
-  }
 
   /* button style */
 
@@ -171,7 +166,7 @@ h1 {
   #footer {
     border-top: 1px solid hsl(0, 0%, 50%);
     height: 75px;
-    margin-top: 25px;
+    margin-top: 50px;
     padding-top: 25px;
     width: 100%;
 
@@ -194,14 +189,15 @@ h1 {
 @media screen and (min-width: 768px) {
 
 .container {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
   padding-bottom: 25px;
 }
 
 h1 {
   font-size: 100px;
   margin-top: 30px;
+  margin-bottom: 25px;
 
 }
 
@@ -231,19 +227,17 @@ font-size: 18px;
 padding-top: 35px;
 }
 
-}
-
 @media screen and (min-width: 1025px) {
 
 .container {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 110px;
+  padding-right: 110px;
   padding-bottom: 50px;
 }
 
 h1 {
-  font-size: 110px;
-  margin-bottom: 60px;
+  font-size: 125px;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -280,10 +274,6 @@ li {
 font-size: 20px;
 padding-top: 35px;
 padding-right: 10px;
-}
-
-.fa-chevron-circle-down {
-  font-size: 1.5em;
 }
 
 }

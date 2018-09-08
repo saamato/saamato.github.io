@@ -63,14 +63,15 @@ section.intro {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
   margin-top: 25px;
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 40px
 
 }
 
 .problem, .solution {
   grid-column: 1/3;
-  padding: 25px 25px 25px 25px;
+  padding: 40px 25px 0px 40px;
 }
 
 .chart1 {
@@ -251,38 +252,38 @@ p.color-box3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px; */
-  grid-column-gap: 25px;
+  grid-column-gap: 30px;
   background-color: #faf3e1;
-  margin-left: -50px;
-  margin-right: -50px;
+  margin-left: -75px;
+  margin-right: -75px;
   padding-top: 50px;
   padding-bottom: 50px;
 
 }
   .problem {
-    padding-left: 50px;
+    padding: 0px 0px 0px 75px;
     grid-column: 1/2;
 
   }
 
   .solution {
-    padding-right: 50px;
-    grid-column:2/3;
+    padding: 0px 75px 0px 0px;
 
+    grid-column:2/3;
 
   }
 
   .chart1 {
-    grid-column: 3/11;
+    grid-column: 1/5;
   }
 
   .chart2 {
-    grid-column: 3/11;
+    grid-column: 5/9;
 
   }
 
   .chart3 {
-    grid-column: 3/11;
+    grid-column: 9/13;
   }
 
   p.chart {
@@ -399,18 +400,7 @@ p.color-box3 {
 }
 
 @media screen and (min-width: 1025px) {
-  .chart1 {
-    grid-column: 1/5;
-  }
 
-  .chart2 {
-    grid-column: 5/9;
-
-  }
-
-  .chart3 {
-    grid-column: 9/13;
-  }
 
   .main {
     grid-column: 1/8;
@@ -418,23 +408,22 @@ p.color-box3 {
   }
 
   .prosol {
-    margin-left: -75px;
-    margin-right: -75px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    margin-left: -110px;
+    margin-right: -110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
   }
 
   .problem {
-    padding-left: 75px;
+    padding-left: 100px;
     grid-column: 1/2;
 
   }
 
   .solution {
-    padding-right: 75px;
+    padding-right: 100px;
     grid-column:2/3;
-
 
   }
 
