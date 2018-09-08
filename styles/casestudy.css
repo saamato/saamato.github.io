@@ -251,6 +251,7 @@ p.color-box3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px; */
+  grid-column-gap: 25px;
   background-color: #faf3e1;
   margin-left: -50px;
   margin-right: -50px;
@@ -266,7 +267,6 @@ p.color-box3 {
 
   .solution {
     padding-right: 50px;
-    padding-top:0px;
     grid-column:2/3;
 
 
@@ -433,7 +433,6 @@ p.color-box3 {
 
   .solution {
     padding-right: 75px;
-    padding-top:0px;
     grid-column:2/3;
 
 

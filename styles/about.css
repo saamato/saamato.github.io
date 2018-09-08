@@ -24,6 +24,12 @@ img.sara {
   margin-bottom: 10px;
 }
 
+/* @media screen and (min-width: 768px) {
+  .about, .about1 {
+    grid-column: 3/11;
+  }
+} */
+
 
 /* Media Queries */
 @media screen and (min-width: 1025px) {

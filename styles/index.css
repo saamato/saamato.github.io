@@ -13,8 +13,9 @@ p.introdesktop {
 /*down arrow*/
 .arrow {
   font-size: 2em;
-  padding-top: 50px;
+  margin-top: 50px;
   text-align: center;
+
 }
 
 

@@ -75,7 +75,7 @@ h1 {
   nav {
       border-bottom: 1px solid hsl(0, 0%, 50%);
       height: 50px;
-      padding-top: 25px;
+      margin-top: 25px;
       padding-bottom: 25px;
       margin-bottom: 25px;
       width: 100%;
@@ -216,7 +216,7 @@ h3 {
 
 nav {
   height: 75px;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 25px;
   margin-bottom: 25px;
 
