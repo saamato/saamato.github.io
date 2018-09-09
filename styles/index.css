@@ -47,9 +47,22 @@ i.fa-chevron-circle-down {
 /* images */
 
 img.newspapers {
-  grid-column: 1/13;
+  grid-column: 1/7;
   margin-top: 75px;
+  margin-bottom: 20px;
   width: 100%;
+}
+
+img.newspapers1 {
+  grid-column: 7/13;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+img.newspapers2 {
+  display: none;
 }
 
 .bee {
@@ -133,8 +146,25 @@ img.bee1 {
     img.bee1 {
       display: grid;
       grid-column: 9/13;
-      margin-top: -25px;
       width: 100%;
+    }
+
+    img.newspapers {
+      grid-column: 1/5;
+    }
+
+    img.newspapers1 {
+      grid-column: 5/9;
+    }
+
+
+    img.newspapers2 {
+      display:grid;
+      grid-column: 9/13;
+      margin-top: 75px;
+      margin-bottom: 20px;
+      width: 100%;
+
     }
 
       /*down arrow*/
@@ -153,13 +183,6 @@ img.bee1 {
 
     section.editorial {
       grid-column: 1/10;
-    }
-
-    img.newspapers {
-      grid-column: 1/13;
-      margin-top: 50px;
-      margin-bottom: 25px;
-      width: 100%;
     }
 
 }
@@ -181,7 +204,7 @@ img.bee1 {
 
   /*down arrow*/
 i.fa-chevron-circle-down {
-  font-size: 3em;
+  font-size: 2em;
   }
 
 }

@@ -20,7 +20,7 @@ h1 {
   color: #EBD341;
   font-family: 'Playfair Display', serif;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-size: 85px;
   font-weight: 900;
   }
@@ -117,7 +117,7 @@ h1 {
   }
 
   /* wrapper */
-  .wrapper {
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -141,6 +141,7 @@ h1 {
   .button {
       background-color: #C35E2C;
       border: none;
+      border-radius: 25px;
       color: white;
       display: inline-block;
       font-family: "Franklin Gothic Book", sans-serif;
@@ -197,7 +198,6 @@ h1 {
 h1 {
   font-size: 100px;
   margin-top: 30px;
-  margin-bottom: 25px;
 
 }
 
@@ -205,7 +205,7 @@ h3 {
   font-size: 25px;
 }
 
-.wrapper {
+.grid {
   grid-column-gap: 30px;
 
 }
@@ -242,7 +242,6 @@ padding-top: 35px;
 
 h1 {
   font-size: 125px;
-  margin-bottom: 40px;
 }
 
 h2 {
