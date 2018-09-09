@@ -418,13 +418,13 @@ p.color-box3 {
   }
 
   .problem {
-    padding-left: 100px;
+    padding-left: 110px;
     grid-column: 1/2;
 
   }
 
   .solution {
-    padding-right: 100px;
+    padding-right: 110px;
     grid-column:2/3;
 
   }
