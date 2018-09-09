@@ -148,7 +148,7 @@ h1 {
       font-size: 12px;
       line-height: 1;
       margin-top: 25px;
-      margin-right: 10px;
+      margin-right: 5px;
       padding: 20px;
       text-transform: uppercase;
       text-align: center;
@@ -225,6 +225,11 @@ nav {
 li {
 font-size: 18px;
 padding-top: 35px;
+}
+
+.button {
+    margin-right: 10px;
+
 }
 
 @media screen and (min-width: 1025px) {

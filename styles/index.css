@@ -38,7 +38,7 @@ text-align: center;
 /*down arrow*/
 i.fa-chevron-circle-down {
   margin-left: -20px;
-  bottom: 100px;
+  bottom: 50px;
   font-size: 2em;
   position: absolute;
   }
@@ -58,14 +58,14 @@ img.newspapers {
 
 img.bee_1 {
   grid-column: 1/13;
-  padding-top: 25px;
+  margin-top: 25px;
   width: 100%;
 }
 
 img.bee1 {
   display: none;
   grid-column: 3/4;
-  padding-top: 50px;
+  margin-top: 50px;
   width: 100%;
 
 }
@@ -139,7 +139,6 @@ img.bee1 {
 
       /*down arrow*/
     i.fa-chevron-circle-down {
-      bottom: 50px;
       font-size: 3em;
       }
 
@@ -182,7 +181,6 @@ img.bee1 {
 
   /*down arrow*/
 i.fa-chevron-circle-down {
-  bottom: 50px;
   font-size: 3em;
   }
 
