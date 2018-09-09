@@ -38,9 +38,8 @@ text-align: center;
 /*down arrow*/
 i.fa-chevron-circle-down {
   margin-left: -20px;
-  bottom: 50px;
+  margin-top: 50px;
   font-size: 2em;
-  position: absolute;
   }
 
 
@@ -169,7 +168,7 @@ img.bee1 {
 
       /*down arrow*/
     i.fa-chevron-circle-down {
-      font-size: 3em;
+      font-size: 2em;
       }
 
 
@@ -189,8 +188,8 @@ img.bee1 {
 
 @media screen and (min-width: 1025px) {
   p.introdesktop {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
     width: auto;
     }
 
@@ -200,11 +199,6 @@ img.bee1 {
 
   section.beespace {
     grid-column: 1/9;
-  }
-
-  /*down arrow*/
-i.fa-chevron-circle-down {
-  font-size: 2em;
   }
 
 }
