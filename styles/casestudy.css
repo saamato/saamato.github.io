@@ -16,12 +16,22 @@
 
   p.bold {
     font-weight: 900;
+
   }
 
   p.type {
     margin-bottom: 10px;
   }
 
+  ul.personas, ul.swot {
+    list-style-type: disc;
+    margin-left: 25px;
+
+  }
+
+li.personas, ul.swot {
+line-height: 25px;
+}
 
 
 /*sections*/
@@ -139,20 +149,11 @@ img.beespace {
   width: 100%;
 }
 
-img.gdl {
-  grid-column: 1/13;
+img.dp, img.ic, img.gdl {
+  margin-bottom: 20px;
   width: 100%;
 }
 
-img.dp {
-  grid-column: 3/5;
-  width: 100%;
-}
-
-img.ic {
-  grid-column: 3/4;
-  width: 100%;
-}
 
 img.woman {
   grid-column: 1/13;
@@ -297,22 +298,22 @@ p.color-box3 {
   }
 
   .googledrive {
-    grid-column: 1/5;
+    grid-column: 3/11;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 
 
   }
 
   .dropbox {
-    grid-column: 5/9;
+    grid-column:3/11;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 
   }
 
   .icloud {
-    grid-column: 9/13;
+    grid-column: 3/11;
 
   }
 
@@ -444,8 +445,35 @@ p.color-box3 {
   }
 
 
+
+  li.personas, li.swot {
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+
   section.intro {
     grid-column: 1/10;
+  }
+
+  .googledrive {
+    grid-column: 1/5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+  }
+
+  .dropbox {
+    grid-column: 5/9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .icloud {
+    grid-column: 9/13;
+
   }
 
 }

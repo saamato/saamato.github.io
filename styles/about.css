@@ -1,6 +1,5 @@
 /*text*/
-p.email {
-}
+
 
 h2.me {
   font-size: 30px;
@@ -12,6 +11,7 @@ h2.me {
 .about {
   grid-column: 1/13;
   margin-top: 25px;
+  margin-bottom: 25px;
   width: 100%;
 }
 
@@ -37,6 +37,7 @@ img.sara {
   .about {
     grid-column: 1/7;
     margin-top: 40px;
+    margin-bottom: 0px;
   }
 
   .about1 {

@@ -38,8 +38,7 @@ h1 {
     font-size: 20px;
     line-height: 25px;
     font-weight: 900;
-    padding: 5px;
-    margin-left: -5px;
+    padding: 5px 0 5px 0;
     margin-bottom: 10px;
   }
 
@@ -87,7 +86,7 @@ h1 {
     float: left;
   }
 
-  .right {
+  ul.right {
     float: right;
   }
 
@@ -99,7 +98,7 @@ h1 {
     list-style-type: none;
   }
 
-  li {
+  li.navbar  {
     float: left;
     font-size: 15px;
     padding-top: 20px;
@@ -140,7 +139,7 @@ h1 {
 
   .button {
       background-color: #C35E2C;
-      border: none;
+      border: 1px solid #C35E2C;
       border-radius: 25px;
       color: white;
       display: inline-block;
@@ -159,6 +158,13 @@ h1 {
 
   a.button {
     color: white;
+  }
+
+  a.button:hover {
+    background-color: #FDFAF3;
+    border: 1px solid #C35E2C;
+    color: black;
+
   }
 
 
@@ -205,6 +211,10 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 .grid {
   grid-column-gap: 30px;
 
@@ -222,7 +232,7 @@ nav {
   width: 75px;
 }
 
-li {
+li.navbar {
 font-size: 18px;
 padding-top: 35px;
 }
@@ -241,7 +251,7 @@ padding-top: 35px;
 }
 
 h1 {
-  font-size: 110px;
+  font-size: 115px;
 }
 
 h2 {
@@ -252,11 +262,17 @@ h2 {
 
 h3  {
   font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 25px;
 }
 
 p {
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 10px;
 }
 
 
@@ -274,7 +290,7 @@ nav {
   width: 100px;
 }
 
-li {
+li.navbar {
 font-size: 20px;
 padding-top: 35px;
 padding-right: 10px;

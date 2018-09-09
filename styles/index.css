@@ -201,4 +201,9 @@ img.bee1 {
     grid-column: 1/9;
   }
 
+  /*down arrow*/
+  i.fa-chevron-circle-down {
+      margin-top: 75px;
+    }
+
 }
