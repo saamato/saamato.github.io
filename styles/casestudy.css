@@ -191,9 +191,15 @@ img.pt2, .pt4, .pt6 {
 }
 
 .hifipic {
-  grid-column: 1/13;
+  grid-column: 1/7;
   width: 100%;
 }
+
+.hifipic1 {
+  grid-column: 7/13;
+  width: 100%;
+}
+
 
 img.wireframes {
   display: none;
@@ -377,11 +383,6 @@ p.color-box3 {
   img.pt2, .pt4, .pt6 {
     grid-column: 7/13;
   }
-
-  .hifipic {
-    grid-column: 1/13;
-  }
-
 
 
   .color {
