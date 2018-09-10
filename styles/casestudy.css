@@ -1,13 +1,19 @@
 /* text styles */
   h5.test {
     grid-column: 1/13;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
 
   .h5 {
     grid-column: 1/13;
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+
+  p.pt {
+    font-size: 15px;
+    grid-column: 1/13;
   }
 
   p.chart {
@@ -38,6 +44,8 @@ line-height: 25px;
 /*sections*/
 section.intro {
   grid-column: 1/13;
+  text-align: center;
+
   margin-top: 50px;
   width: 100%;
 }
@@ -204,10 +212,6 @@ img.pt1, .pt3, .pt5, .pt2, .pt4, .pt6 {
 
 
 img.wireframes {
-  display: none;
-}
-
-img.wireframe_alt {
   grid-column: 1/13;
   width: 100%;
 }
@@ -347,6 +351,7 @@ p.color-box3 {
 
   img.dp {
     grid-column: 3/5;
+    width: 100%;
   }
 
   img.ic {
@@ -411,6 +416,12 @@ p.color-box3 {
 
 @media screen and (min-width: 1025px) {
 
+  p.pt {
+    line-height: 25px;
+    grid-column: 1/7;
+    margin-bottom: 25px;
+
+  }
 
   .main {
     grid-column: 1/10;
@@ -441,29 +452,20 @@ p.color-box3 {
 
   }
 
+
+
   .solution {
     padding-right: 110px;
     grid-column:2/3;
 
   }
 
-  .wireframe_alt {
-    display: none;
-  }
-
-  img.wireframes {
-    display: grid;
-    grid-column: 1/13;
-    margin-top: 20px;
-    width: 100%;
-  }
-
   img.beelogo {
     display: grid;
-    grid-column: 8/13;
+    grid-column: 10/13;
     margin-top: 75px;
     padding: 50px 75px 75px 75px;
-    width: 300px;
+    width: 200px;
   }
 
 
@@ -475,7 +477,8 @@ p.color-box3 {
 
 
   section.intro {
-    grid-column: 1/10;
+    grid-column: 4/10;
+    text-align: center;
   }
 
   .googledrive {
@@ -504,5 +507,14 @@ p.color-box3 {
 .main, .main_ab_desktop {
   grid-column: 1/8;
 }
+
+img.beelogo {
+  display: grid;
+  grid-column: 9/13;
+  margin-top: 75px;
+  padding: 50px 75px 75px 75px;
+  width: 300px;
+}
+
 
 }
