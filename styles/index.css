@@ -14,6 +14,7 @@ p.introdesktop {
 section.hello {
   grid-column: 1/13;
   height: calc(100vh - 140px);
+  margin-top: 30px;
 }
 
 section.work {
