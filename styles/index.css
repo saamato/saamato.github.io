@@ -13,7 +13,7 @@ p.introdesktop {
 /*section information */
 section.hello {
   grid-column: 1/13;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 170px);
 }
 
 section.work {
