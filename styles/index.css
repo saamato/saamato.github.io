@@ -37,7 +37,7 @@ section.editorial {
 }
 /*down arrow*/
 i.fa-chevron-circle-down {
-  bottom: 50px;
+  bottom: 10px;
   position: absolute;
   margin-left: -20px;
   font-size: 2em;
@@ -168,7 +168,7 @@ img.bee1 {
 
   /*down arrow*/
   i.fa-chevron-circle-down {
-    bottom: 50px;
+    bottom: 75px;
     font-size: 2.5em;
   }
 
@@ -199,7 +199,6 @@ img.bee1 {
 
   /*down arrow*/
   i.fa-chevron-circle-down {
-    bottom: 40px;
     font-size: 3em;
   }
 
