@@ -38,7 +38,7 @@ line-height: 25px;
 /*sections*/
 section.intro {
   grid-column: 1/13;
-  margin-top: 25px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -134,12 +134,18 @@ section.intro {
 }
 
 /* section main*/
-.main {
+.main, .main_ab {
   margin-bottom: 30px;
   margin-top: 30px;
   grid-column: 1/13;
   width: 100%;
 }
+
+.main_ab_desktop {
+  display: none;
+}
+
+
 
 /*images*/
 
@@ -176,18 +182,13 @@ img.sketching {
 
 img.flows {
   grid-column: 1/13;
+  margin-top: 20px;
   width: 100%;
 }
 
-img.pt1, .pt3, .pt5 {
-  grid-column: 1/7;
-  padding-bottom: 10px;
-  width: 100%;
-}
-
-img.pt2, .pt4, .pt6 {
-  grid-column: 7/13;
-  padding-bottom: 30px;
+img.pt1, .pt3, .pt5, .pt2, .pt4, .pt6 {
+  grid-column: 1/13;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -379,12 +380,15 @@ p.color-box3 {
 
   img.pt1, .pt3, .pt5 {
     grid-column: 1/7;
+    padding-bottom: 10px;
+    width: 100%;
   }
 
   img.pt2, .pt4, .pt6 {
     grid-column: 7/13;
+    padding-bottom: 30px;
+    width: 100%;
   }
-
 
   .color {
     grid-column: 1/5;
@@ -409,12 +413,19 @@ p.color-box3 {
 
 
   .main {
-    grid-column: 1/8;
+    grid-column: 1/10;
     margin: 75px 0 25px 0;
-
-
   }
 
+.main_ab {
+  display: none;
+}
+
+.main_ab_desktop {
+  display: grid;
+  grid-column: 1/10;
+  margin: 75px 0 25px 0;
+}
   .prosol {
     grid-column-gap: 50px;
     margin-left: -110px;
@@ -441,8 +452,9 @@ p.color-box3 {
   }
 
   img.wireframes {
-    display: block;
+    display: grid;
     grid-column: 1/13;
+    margin-top: 20px;
     width: 100%;
   }
 
@@ -485,5 +497,12 @@ p.color-box3 {
     grid-column: 9/13;
 
   }
+
+}
+
+@media screen and (min-width: 1440px) {
+.main, .main_ab_desktop {
+  grid-column: 1/8;
+}
 
 }
