@@ -32,16 +32,16 @@ section.beespace {
 /*down arrow*/
 .arrow {
   margin: auto;
-text-align: center;
+  text-align: center;
 
 }
 /*down arrow*/
 i.fa-chevron-circle-down {
+  bottom: 50px;
+  position: absolute;
   margin-left: -20px;
-  margin-top: 50px;
   font-size: 2em;
   }
-
 
 /* images */
 
@@ -168,7 +168,8 @@ img.bee1 {
 
       /*down arrow*/
     i.fa-chevron-circle-down {
-      font-size: 2em;
+      bottom: 50px;
+      font-size: 2.5em;
       }
 
 
@@ -203,7 +204,7 @@ img.bee1 {
 
   /*down arrow*/
   i.fa-chevron-circle-down {
-      margin-top: 75px;
-    }
+    bottom: 40px;
+font-size: 3em;    }
 
 }
