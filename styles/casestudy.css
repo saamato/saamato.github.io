@@ -486,10 +486,4 @@ p.color-box3 {
 
   }
 
-  img.flows {
-    grid-column: 1/13;
-    margin-top: 75px;
-    width: 100%;
-  }
-
 }
