@@ -37,7 +37,7 @@ grid-column: 1/13;
 
 }
 /*down arrow*/
-i.fa-chevron-circle-down {
+i.fa-chevron-down {
   bottom: 50px;
   position: absolute;
   margin-left: -20px;
@@ -60,6 +60,39 @@ img.newspapers1 {
   width: 100%;
 }
 
+
+img.work {
+  grid-column: 1/4;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+}
+
+img.work1 {
+grid-column:4/7;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 10px;
+
+
+}
+
+img.work2 {
+grid-column: 7/10;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 10px;
+
+
+}
+
+img.work3 {
+grid-column: 10/13;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 10px;
+}
 
 img.newspapers2 {
   display: none;
@@ -131,15 +164,18 @@ img.bee1 {
 
   .bee {
     grid-column: 1/9;
+    padding-top: 40px;
   }
 
-  img.bee_1 {
+  /* img.bee_1 {
     grid-column: 1/9;
     width: 100%;
-  }
+  } */
 
   .bee_2 {
     grid-column: 9/13;
+    padding-top: 40px;
+
   }
 
   img.bee1 {
@@ -167,7 +203,7 @@ img.bee1 {
   }
 
   /*down arrow*/
-  i.fa-chevron-circle-down {
+  i.fa-chevron-down {
     bottom: 100px;
     font-size: 2.5em;
   }
@@ -206,7 +242,7 @@ img.bee1 {
   }
 
   /*down arrow*/
-  i.fa-chevron-circle-down {
+  i.fa-chevron-down {
     bottom: 50px;
     font-size: 3em;
   }
