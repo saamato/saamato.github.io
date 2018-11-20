@@ -178,9 +178,9 @@ img.actively {
 img.actively_l {
   grid-column: 1/13;
   padding-top: 20px;
-  padding-left: 70px;
+  padding-left: 25%;
   /* margin-bottom: -50px; */
-  width: 200px;
+  width: 50%;
 }
 
 img.dp, img.ic, img.gdl {
@@ -568,8 +568,9 @@ img.photo4 {
     display: grid;
     grid-column: 10/13;
     margin-top: 75px;
-    padding: 50px 75px 75px 75px;
-    width: 150px;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
   }
 
 
@@ -621,6 +622,15 @@ img.beelogo {
   margin-top: 75px;
   padding: 50px 75px 75px 75px;
   width: 300px;
+}
+
+img.actively_l {
+  display: grid;
+  grid-column: 10/13;
+  margin-top: 75px;
+  padding-left: 15%;
+  padding-right: 25%;
+  width: 70%;
 }
 
 

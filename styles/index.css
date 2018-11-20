@@ -62,7 +62,7 @@ img.newspapers1 {
 
 
 img.work {
-  grid-column: 1/4;
+  grid-column: 1/7;
   width: 100%;
   padding-top: 25px;
   padding-bottom: 10px;
@@ -70,7 +70,7 @@ img.work {
 }
 
 img.work1 {
-grid-column:4/7;
+grid-column:7/13;
 width: 100%;
 padding-top: 25px;
 padding-bottom: 10px;
@@ -79,6 +79,7 @@ padding-bottom: 10px;
 }
 
 img.work2 {
+display: none;
 grid-column: 7/10;
 width: 100%;
 padding-top: 25px;
@@ -88,6 +89,7 @@ padding-bottom: 10px;
 }
 
 img.work3 {
+display: none;
 grid-column: 10/13;
 width: 100%;
 padding-top: 25px;
@@ -200,6 +202,41 @@ img.bee1 {
     margin-bottom: 20px;
     width: 100%;
 
+  }
+
+  img.work {
+    grid-column: 1/4;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+  }
+
+  img.work1 {
+  grid-column:4/7;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+
+  }
+
+  img.work2 {
+  display: grid;
+  grid-column: 7/10;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+
+  }
+
+  img.work3 {
+  display: grid;
+  grid-column: 10/13;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
   }
 
   /*down arrow*/
