@@ -6,12 +6,12 @@ var myChart = new Chart(ctx, {
     datasets: [{
       data: [65.2, 34.8],
       backgroundColor: [
-        '#93d0d1',
+        '#17a6b7',
         '#E1E2E3',
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
 
     }]
   },
@@ -59,7 +59,7 @@ var d2 = new Chart(chartTwo, {
 
       data: [34.8, 65.2],
       backgroundColor: [
-        '#93d0d1',
+        '#17a6b7',
         '#E1E2E3'
       ],
       borderWidth: 3,
@@ -111,7 +111,7 @@ var d3 = new Chart(chartThree, {
     datasets: [{
       data: [50, 50],
       backgroundColor: [
-        '#93d0d1',
+        '#17a6b7',
         '#E1E2E3'
       ],
       borderWidth: 3,
@@ -162,7 +162,7 @@ var plugin = Chart.pluginService.register({
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Roboto";
-    ctx.fillStyle = "#93d0d1";
+    ctx.fillStyle = "#17a6b7";
     // ctx.textBaseline = "middle";
 
     var text = "65.2%",
@@ -184,7 +184,7 @@ var plugin = Chart.pluginService.register({
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Roboto";
-    ctx.fillStyle = "#93d0d1";
+    ctx.fillStyle = "#17a6b7";
     // ctx.textBaseline = "middle";
 
     var text = "34.8%",
@@ -206,7 +206,7 @@ var plugin = Chart.pluginService.register({
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
     ctx.font = fontSize + "em Roboto";
-    ctx.fillStyle = "#93d0d1";
+    ctx.fillStyle = "#17a6b7";
     // ctx.textBaseline = "middle";
 
     var text = "50%",

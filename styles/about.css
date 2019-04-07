@@ -7,6 +7,12 @@ h2.me {
   margin-bottom: 30px;
 }
 
+h2.metest {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
 /*grid sizes*/
 .about {
   grid-column: 1/13;
