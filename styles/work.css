@@ -55,6 +55,7 @@ img.profile {
 
 .case_top {
   grid-column: 7/13;
+  margin-top: 50px;
 }
 
   .case_left {
@@ -75,6 +76,7 @@ img.signafire {
   width: 100%;
   grid-column: 1/7;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
   img.feed {
