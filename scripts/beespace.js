@@ -6,12 +6,12 @@ var myChart = new Chart(ctx, {
     datasets: [{
       data: [60.7, 39.3],
       backgroundColor: [
-        '#93d0d1',
+        '#4597b5',
         '#E1E2E3',
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
 
     }]
   },
@@ -39,7 +39,7 @@ var myChart = new Chart(ctx, {
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
-        fontFamily: "Lato",
+        fontFamily: "Roboto",
         fontSize: 15,
 
 
@@ -59,12 +59,12 @@ var d2 = new Chart(chartTwo, {
 
       data: [50, 50],
       backgroundColor: [
-        '#93d0d1',
+        '#4597b5',
         '#E1E2E3'
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
 
     }]
   },
@@ -92,7 +92,7 @@ var d2 = new Chart(chartTwo, {
       labels: {
         // This more specific font property overrides the global property
         fontColor: 'black',
-        fontFamily: "Lato",
+        fontFamily: "Roboto",
         fontSize: 15,
 
 
@@ -111,12 +111,12 @@ var d3 = new Chart(chartThree, {
     datasets: [{
       data: [64.3, 35.7],
       backgroundColor: [
-        '#93d0d1',
+        '#4597b5',
         '#E1E2E3'
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
     }]
   },
   options: {
@@ -143,7 +143,7 @@ var d3 = new Chart(chartThree, {
       labels: {
          // This more specific font property overrides the global property
         fontColor: 'black',
-        fontFamily: "Lato",
+        fontFamily: "Roboto",
         fontSize: 15,
 
       }
@@ -161,8 +161,8 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
+    ctx.font = fontSize + "em Roboto";
+    ctx.fillStyle = "#4597b5";
     // ctx.textBaseline = "middle";
 
     var text = "60.7%",
@@ -183,8 +183,8 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
+    ctx.font = fontSize + "em Roboto";
+    ctx.fillStyle = "#4597b5";
     // ctx.textBaseline = "middle";
 
     var text = "50%",
@@ -205,8 +205,8 @@ var plugin = Chart.pluginService.register({
 
     ctx.restore();
     var fontSize = (height / 114).toFixed(2);
-    ctx.font = fontSize + "em Lato";
-    ctx.fillStyle = "#93d0d1";
+    ctx.font = fontSize + "em Roboto";
+    ctx.fillStyle = "#4597b5";
     // ctx.textBaseline = "middle";
 
     var text = "64.3%",
