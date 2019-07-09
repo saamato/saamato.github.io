@@ -6,7 +6,7 @@ var myChart = new Chart(ctx, {
     datasets: [{
       data: [65.2, 34.8],
       backgroundColor: [
-        '#17a6b7',
+        '#4597b5',
         '#E1E2E3',
       ],
       borderWidth: 3,
@@ -59,12 +59,12 @@ var d2 = new Chart(chartTwo, {
 
       data: [34.8, 65.2],
       backgroundColor: [
-        '#17a6b7',
-        '#E1E2E3'
+        '#4597b5',
+        '#E1E2E3',
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
 
     }]
   },
@@ -111,12 +111,12 @@ var d3 = new Chart(chartThree, {
     datasets: [{
       data: [50, 50],
       backgroundColor: [
-        '#17a6b7',
-        '#E1E2E3'
+        '#4597b5',
+        '#E1E2E3',
       ],
       borderWidth: 3,
-      borderColor: ["#FDFAF3", "#FDFAF3"],
-      hoverBorderColor: ["#FDFAF3", "#FDFAF3"]
+      borderColor: ["#F5F5F5", "#F5F5F5"],
+      hoverBorderColor: ["#F5F5F5", "#F5F5F5"]
     }]
   },
   options: {
