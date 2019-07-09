@@ -77,7 +77,7 @@ section.intro {
 
 .prosol {
   grid-column: 1/13;
-  background-color: #DBDBDB;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
