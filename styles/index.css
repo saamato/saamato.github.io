@@ -1,9 +1,9 @@
-body {
+/* body {
   background-color: #231F3D;
-}
+} */
 
 .socialmedia {
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
 
 }
@@ -11,15 +11,17 @@ body {
 
 /*intro*/
 p.intro {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 40px;
+  line-height: 50px;
+    font-weight: 100;
   width: auto;
-  color: white;
+  color: #4a4a4a;
 }
 
 p.introdesktop {
   display: none;
-  color: white;
+  color: #4a4a4a;
+    font-weight: 100;
 
 }
 
@@ -27,15 +29,15 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#ffffff; } /* unvisited */
-a:visited { color:#ffffff; } /* visited */
+a:link { color:#4a4a4a; } /* unvisited */
+a:visited { color:#4a4a4a; } /* visited */
 a:hover { color:#4597b5; } /* mouse over */
 a:active { color:#4597b5; } /* selected */
 
 /*section information */
 section.hello {
   grid-column: 1/13;
-  margin-top: 11vh;
+  /* margin-top: 11vh; */
 }
 
 /* STYLES FOR TYPING HELLO */
@@ -67,15 +69,16 @@ section.hello h1 {
 
   p.intro {
     display: none;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 100;
   }
 
   p.introdesktop {
     display: block;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 100;
     width: auto;
   }
 
@@ -84,9 +87,9 @@ section.hello h1 {
 
 @media screen and (min-width: 1025px) {
   p.introdesktop {
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 300;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 100;
   }
 
 
