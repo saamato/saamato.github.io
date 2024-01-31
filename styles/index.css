@@ -11,8 +11,8 @@
 
 /*intro*/
 p.intro {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 32px;
+  line-height: 40px;
     font-weight: 100;
   width: auto;
   color: #4a4a4a;
@@ -76,8 +76,8 @@ section.hello h1 {
 
   p.introdesktop {
     display: block;
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 50px;
     font-weight: 100;
     width: auto;
   }
@@ -87,8 +87,8 @@ section.hello h1 {
 
 @media screen and (min-width: 1025px) {
   p.introdesktop {
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 100;
   }
 
