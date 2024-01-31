@@ -69,7 +69,7 @@ section.hello h1 {
 
   p.intro {
     display: none;
-    font-size: 40px;
+    /* font-size: 40px; */
     line-height: 50px;
     font-weight: 100;
   }
