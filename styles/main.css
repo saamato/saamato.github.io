@@ -87,7 +87,7 @@ h1 {
   nav {
       height: 50px;
       margin-top: 40px;
-      padding-bottom: 25px;
+      /* padding-bottom: 25px; */
       margin-bottom: 25px;
       width: 100%;
 
@@ -242,7 +242,7 @@ h4 {
 nav {
   height: 75px;
   margin-top: 50px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   margin-bottom: 25px;
 
 }

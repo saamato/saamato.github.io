@@ -28,7 +28,7 @@ h2.metest {
 /*grid sizes*/
 .about {
   grid-column: 1/13;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 25px;
   width: 100%;
 }
@@ -62,13 +62,13 @@ img.sara {
   /*grid sizes*/
   .about {
     grid-column: 1/7;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
 
   .about1 {
     grid-column: 7/13;
-    margin-top: 50px;
+    /* margin-top: 25px; */
   }
 
 

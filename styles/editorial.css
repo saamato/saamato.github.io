@@ -1,7 +1,7 @@
 /*div intro*/
 
 div.intro {
-  margin-top: 50px;
+  /* margin-top: 25px; */
   margin-bottom: 25px;
   grid-column: 1/13;
   width: 100%;
