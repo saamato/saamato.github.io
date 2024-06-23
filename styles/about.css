@@ -28,7 +28,7 @@ h2.metest {
 /*grid sizes*/
 .about {
   grid-column: 1/13;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   margin-bottom: 25px;
   width: 100%;
 }
