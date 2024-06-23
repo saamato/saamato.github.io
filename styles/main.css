@@ -144,7 +144,9 @@ h1 {
     text-decoration: none;
   }
 
-  a:link { color: #4a4a4a; } /* unvisited */
+  a:link { color: #4a4a4a;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;} /* unvisited */
 
   a:visited { color:#4a4a4a; } /* visited */
   a:hover { color:#4597b5;
