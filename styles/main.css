@@ -142,7 +142,7 @@ h1 {
 
   /* link styles */
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:link { color: #085976;} /* unvisited */

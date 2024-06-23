@@ -29,10 +29,10 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#4a4a4a; } /* unvisited */
-a:visited { color:#4a4a4a; } /* visited */
-a:hover { color:#4597b5; } /* mouse over */
-a:active { color:#4597b5; } /* selected */
+a:link { color:#085976; } /* unvisited */
+a:visited { color:#085976; } /* visited */
+a:hover { color:#085976; } /* mouse over */
+a:active { color:#085976; } /* selected */
 
 /*section information */
 section.hello {
