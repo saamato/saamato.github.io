@@ -19,16 +19,12 @@ p {
   font-weight: 300;
 }
 
-label {
+p.label {
   font-size: 14px;
-  line-height: 200%;
+  line-height: 120%;
   font-weight: 600;
   font-family: 'Work Sans', san-serif;
 text-transform: uppercase;
-}
-
-.label {
-  padding-bottom: 8px;
 }
 
 h1 {
@@ -90,13 +86,13 @@ h1 {
     /* text-align: center; */
   }
 
-  p.label {
+  /* p.label {
     font-size: 12px;
     line-height: 20px;
     font-weight: 300;
     font-family: "Work Sans", sans-serif;
     text-transform: capitalize;
-  }
+  } */
 
   /** Nav Bar **/
   nav {
@@ -317,11 +313,6 @@ p {
   margin-bottom: 10px;
 }
 
-
-p.label {
-  font-size: 15px;
-  margin-bottom: 10px;
-}
 
 nav {
   height: 100px;
