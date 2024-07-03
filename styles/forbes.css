@@ -1,6 +1,13 @@
 /*div intro*/
 
-div.intro, div.contentblock {
+.leftrail, .rightrail {
+  grid-column: 1/13;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+}
+
+div.intro {
   /* margin-top: 25px; */
   margin-bottom: 32px;
   grid-column: 1/13;
@@ -8,212 +15,58 @@ div.intro, div.contentblock {
   display: grid;
 }
 
-div.content {
-  /* margin-top: 25px; */
-  margin-bottom: 32px;
-  grid-column: 1/13;
-  /* width: 100%; */
-  display: grid;
-}
+button:disabled, {
+        border: 1px solid black;
+        background-color: grey;
+        color: white;
+        padding: 15px;
+        cursor: not-allowed;
+    }
 
-div.images {
-  grid-column: 1/13;
-  margin-bottom: 32px;
-}
 
-div.column1, div.column2, div.column3 {
-  grid-column:1/13;
+
+img.main {
   width: 100%;
-  display: grid;
-  margin-bottom: 32px;
-}
-
-img.forbes_current {
-  width: 100%;
-  grid-column: 1/13;
-}
-
-p.bold {
-  font-weight: 600;
-}
-
-div.contentblock_left {
-  margin-top: -32px;
-  margin-bottom: 32px;
-  grid-column: 1/13;
-  width: 100%;
-}
-
-div.contentblock_right {
-  /* margin-top: -32px; */
-  margin-bottom: 32px;
-  grid-column: 1/13;
-  width: 100%;
-}
-
-/* grid */
-.xgrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-column-gap: 16px;
-  margin; auto;
-
-}
-
-h3  {
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: 600;
-  padding: 5px 0 5px 0;
-  margin-bottom: 10px;
-}
-
-h5 {
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  line-height: 120%;
-  font-weight: 600;
-  text-align: center;
-  /* grid-column: 2/4; */
-  /* margin-bottom: 10px; */
-}
-
-ul.case {
-  list-style-type: disc;
-  padding-left: 25px;
-}
-
-li  {
-  font-size: 16px;
-  line-height: 120%;
-  font-weight: 300;
-  text-decoration: none;
-
-}
-
-h6 {
-    font-size: 14px;
-    margin-bottom:-24px;
-    line-height: 120%;
-    font-weight: 600;
-    font-family: 'Work Sans', san-serif;
-  text-transform: uppercase;
-  }
+  margin-bottom: 16px;
 }
 
 
+@media screen and (min-width: 768px) {
 
-img.forbes {
-  grid-column: 1/5;
-  width: 100%;
-}
 
-.socialmedia {
-  text-align: center;
-  margin-top: -20px;
 
 }
-
 
 /* Media Queries */
 @media screen and (min-width: 1025px) {
 
-  .xgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 32px;
-    margin; auto;
-
-  }
-
-  div.intro, div.contentblock {
-    /* margin-top: 25px; */
-    margin-bottom: 32px;
-    grid-column: 1/13;
-    width: 100%;
-    display: grid;
-  }
-
-  div.content {
-    /* margin-top: 25px; */
-    margin-bottom: 32px;
-    grid-column: 1/13;
-    width: 100%;
-    display: grid;
-  }
-
-
-
-  div.contentblock_left {
-    margin-top: -32px;
-    margin-bottom: 32px;
+  /* .leftrail {
     grid-column: 1/7;
-    width: 100%;
+    margin-bottom: 32px;
+
   }
 
-  div.contentblock_right {
-    margin-top: -32px;
+  .rightrail {
+    grid-column:7/13;
     margin-bottom: 32px;
-    grid-column: 7/13;
-    width: 100%;
-  }
 
-  div.column1 {
-    grid-column:1/5;
-    margin-bottom: 32px;
-  }
-  div.column2 {
-    grid-column:5/9;
-    margin-bottom: 32px;
-  }
-  div.column3 {
-    grid-column:9/13;
-    margin-bottom: 32px;
-  }
 
-  img.forbes_current {
-    grid-column: 1/13;
-  }
-}
+  } */
 
-div.images {
-  grid-column: 1/13;
-  margin-top: 8px;
 }
 
 @media screen and (min-width: 1440px) {
 
-  div.intro, div.contentblock {
-    /* margin-top: 25px; */
+  /* .leftrail {
+    grid-column: 1/7;
     margin-bottom: 32px;
-    grid-column: 1/13;
-    width: 100%;
-    display: grid;
   }
 
-div.content {
-    /* margin-top: 25px; */
-    margin-bottom: 32px;
-    grid-column: 1/13;
-    width: 100%;
-    display: grid;
-  }
+  .rightrail {
+    grid-column:7/13;
+    margin-bottom: 32px; */
 
-  div.contentblock_right, div.contentblock_left {
-    /* margin-top: 16px; */
 
   }
 
-  .xgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 16px;
-    margin; auto;
-
   }
-
-}
