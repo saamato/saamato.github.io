@@ -126,7 +126,7 @@ h1 {
 
   li.navbar  {
     float: left;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     padding-top: 19px;
     padding-left: 30px;
@@ -254,8 +254,10 @@ cursor: not-allowed;
 .container {
   /* padding-left: 75px;
   padding-right: 75px; */
-  width: 90%;
+  width: 80%;
   margin: auto;
+  /* margin-left: 64px;
+  margin-right: 64px; */
   display: grid;
 }
 
@@ -325,9 +327,8 @@ cursor: not-allowed;
 .container {
   /* padding-left: 110px;
   padding-right: 110px; */
-  width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 900px;
+  margin: auto;
   /* padding-bottom: 50px; */
 }
 
@@ -381,7 +382,7 @@ padding-right: 10px;
 .container {
   /* padding-left: 110px;
   padding-right: 110px; */
-  width: 800px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   /* padding-bottom: 50px; */
