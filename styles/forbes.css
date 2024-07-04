@@ -33,13 +33,12 @@ button:disabled, {
     }
 
     ul.toc {
-      line-height: 120%;
-      list-style-type: decimal;
-      padding-left: 20px;
+      list-style-type: square;
+      list-style-position: inside;
     }
 
     li {
-      line-height: 200%;
+      line-height: 150%;
     }
 
 
