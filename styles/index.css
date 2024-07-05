@@ -18,21 +18,15 @@ p.intro {
   color: #4a4a4a;
 }
 
-p.introdesktop {
-  display: none;
-  color: #4a4a4a;
-    font-weight: 200;
-
-}
 
 a {
   text-decoration: none;
 }
 
-a:link { color:#085976; } /* unvisited */
-a:visited { color:#085976; } /* visited */
-a:hover { color:#085976; } /* mouse over */
-a:active { color:#085976; } /* selected */
+a:link { color:#4A4A4A; } /* unvisited */
+a:visited { color:#4A4A4A; } /* visited */
+a:hover { color:#4A4A4A; } /* mouse over */
+a:active { color:#4A4A4A; } /* selected */
 
 /*section information */
 section.hello {
@@ -68,26 +62,18 @@ section.hello h1 {
 @media screen and (min-width: 768px) {
 
   p.intro {
-    display: none;
-    /* font-size: 40px; */
+    font-size: 40px;
     line-height: 50px;
     font-weight: 200;
 
   }
 
-  p.introdesktop {
-    display: block;
-    font-size: 40px;
-    line-height: 50px;
-    width: auto;
-      font-weight: 200;
-  }
 
 
 }
 
 @media screen and (min-width: 1025px) {
-  p.introdesktop {
+  p.intro {
     font-size: 50px;
     line-height: 60px;
       font-weight: 200;

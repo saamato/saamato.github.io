@@ -7,6 +7,18 @@ div.intro {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  text-decoration-color: #085976;
+
+}
+
+a:link { color:#4A4A4A; } /* unvisited */
+a:visited { color:#4A4A4A; } /* visited */
+a:hover { color:#4A4A4A; } /* mouse over */
+a:active { color:#4A4A4A; } /* selected */
+
+
 /*images*/
 
 img.redeye1, img.redeye2, img.redeye3 {

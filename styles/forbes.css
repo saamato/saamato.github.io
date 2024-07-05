@@ -9,6 +9,16 @@
 
 a {
   cursor: pointer;
+    text-decoration: none;
+    text-decoration-color: #085976;
+
+  }
+
+  a:link { color:#4A4A4A; } /* unvisited */
+  a:visited { color:#4A4A4A; } /* visited */
+  a:hover { color:#4A4A4A; } /* mouse over */
+  a:active { color:#4A4A4A; } /* selected */
+
 
 }
 
@@ -37,7 +47,13 @@ button:disabled, {
       list-style-position: inside;
     }
 
-    li {
+    .toc a:link { color:#085976; } /* unvisited */
+    .toc a:visited { color:#085976; } /* visited */
+    .toc a:hover { color:#085976;
+      text-decoration: underline;} /* mouse over */
+    .toc a:active { color:#085976; } /* selected */
+
+    li.toc {
       line-height: 150%;
     }
 

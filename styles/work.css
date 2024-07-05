@@ -11,6 +11,20 @@
 
 }
 
+a {
+  text-decoration: none;
+  text-decoration-color: #085976;
+
+}
+
+a:link { color:#4A4A4A; } /* unvisited */
+a:visited { color:#4A4A4A; } /* visited */
+a:hover { color:#4A4A4A; } /* mouse over */
+a:active { color:#4A4A4A; } /* selected */
+
+
+
+
 .fa-envelope-square, .fa-facebook-square, .fa-github-square, .fa-linkedin {
   padding-right: 25px;
 }
