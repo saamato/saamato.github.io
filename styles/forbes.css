@@ -23,8 +23,15 @@ a {
 }
 
 div.bottom {
-  padding-top: 16px;
+  margin-top: 16px;
 }
+
+.bottom a:link { color:#085976; } /* unvisited */
+.bottom a:visited { color:#085976; } /* visited */
+.bottom a:hover { color:#085976; } /* mouse over */
+.bottom a:active { color:#085976; } /* selected */
+
+
 div.intro {
   /* margin-top: 25px; */
   margin-bottom: 32px;
