@@ -10,14 +10,14 @@
 a {
   cursor: pointer;
     text-decoration: none;
-    text-decoration-color: #085976;
+    text-decoration-color: var(--accent-color);
 
   }
 
-  a:link { color:#4A4A4A; } /* unvisited */
-  a:visited { color:#4A4A4A; } /* visited */
-  a:hover { color:#4A4A4A; } /* mouse over */
-  a:active { color:#4A4A4A; } /* selected */
+  a:link { color: var(--text-primary); } /* unvisited */
+  a:visited { color: var(--text-primary); } /* visited */
+  a:hover { color: var(--text-primary); } /* mouse over */
+  a:active { color: var(--text-primary); } /* selected */
 
 
 }
@@ -26,10 +26,10 @@ div.bottom {
   margin-top: 16px;
 }
 
-.bottom a:link { color:#085976; } /* unvisited */
-.bottom a:visited { color:#085976; } /* visited */
-.bottom a:hover { color:#085976; } /* mouse over */
-.bottom a:active { color:#085976; } /* selected */
+.bottom a:link { color: var(--toc-link); } /* unvisited */
+.bottom a:visited { color: var(--toc-link); } /* visited */
+.bottom a:hover { color: var(--toc-link); } /* mouse over */
+.bottom a:active { color: var(--toc-link); } /* selected */
 
 
 div.intro {
@@ -54,11 +54,11 @@ button:disabled, {
       list-style-position: inside;
     }
 
-    .toc a:link { color:#085976; } /* unvisited */
-    .toc a:visited { color:#085976; } /* visited */
-    .toc a:hover { color:#085976;
+    .toc a:link { color: var(--toc-link); } /* unvisited */
+    .toc a:visited { color: var(--toc-link); } /* visited */
+    .toc a:hover { color: var(--toc-link);
       text-decoration: underline;} /* mouse over */
-    .toc a:active { color:#085976; } /* selected */
+    .toc a:active { color: var(--accent-color); } /* selected */
 
     li.toc {
       line-height: 150%;
@@ -81,33 +81,12 @@ img.main {
 /* Media Queries */
 @media screen and (min-width: 1025px) {
 
-  /* .leftrail {
-    grid-column: 1/7;
-    margin-bottom: 32px;
 
-  }
-
-  .rightrail {
-    grid-column:7/13;
-    margin-bottom: 32px;
-
-
-  } */
 
 }
 
 @media screen and (min-width: 1440px) {
 
-  /* .leftrail {
-    grid-column: 1/7;
-    margin-bottom: 32px;
-  }
 
-  .rightrail {
-    grid-column:7/13;
-    margin-bottom: 32px; */
-
-
-  }
 
   }

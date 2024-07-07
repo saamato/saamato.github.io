@@ -11,10 +11,10 @@
 
   }
 
-  a:link { color:#4A4A4A; } /* unvisited */
-  a:visited { color:#4A4A4A; } /* visited */
-  a:hover { color:#4A4A4A; } /* mouse over */
-  a:active { color:#4A4A4A; } /* selected */
+  a:link { color: var(--text-primary); } /* unvisited */
+  a:visited { color: var(--text-primary); } /* visited */
+  a:hover { color: var(--text-primary); } /* mouse over */
+  a:active { color: var(--text-primary); } /* selected */
 
 
   .h5 {

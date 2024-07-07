@@ -1,11 +1,15 @@
-/* body {
-  background-color: #231F3D;
-} */
+body {
+  background-color: var(--surface-invert);
+}
 
-.socialmedia {
-  text-align: center;
-  margin-top: 10px;
 
+
+.hello {
+  margin-top: 24px;
+}
+
+.hello h1 {
+  color: var(--text-invert);
 }
 
 
@@ -15,7 +19,7 @@ p.intro {
   line-height: 40px;
     font-weight: 200;
   width: auto;
-  color: #4a4a4a;
+  color: var(--text-invert);
 }
 
 
@@ -23,47 +27,19 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#4A4A4A; } /* unvisited */
-a:visited { color:#4A4A4A; } /* visited */
-a:hover { color:#4A4A4A; } /* mouse over */
-a:active { color:#4A4A4A; } /* selected */
+a:link { color: var(--text-invert); } /* unvisited */
+a:visited { color: var(--text-invert); } /* visited */
+a:hover { color: var(--text-invert); } /* mouse over */
+a:active { color: var(--text-invert); } /* selected */
 
-/*section information */
-section.hello {
-  grid-column: 1/13;
-  /* margin-top: 11vh; */
-}
 
-/* STYLES FOR TYPING HELLO */
-section.hello h1 {
-  color: #4597b5;
-  font-family: "Playfair Display", serif;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .05em solid transparent; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation:
-  typing 3.5s steps(30, end),
-  blink-caret .5s step-end 2;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #4597b5 }
-}
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
 
   p.intro {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 130%;
     font-weight: 200;
 
   }
@@ -74,8 +50,8 @@ section.hello h1 {
 
 @media screen and (min-width: 1025px) {
   p.intro {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
       font-weight: 200;
   }
 

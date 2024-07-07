@@ -9,14 +9,26 @@ h2.me {
 
 a {
   text-decoration: none;
-  text-decoration-color: #085976;
+  text-decoration-color: var(--accent-color);
 
 }
 
-a:link { color:#4A4A4A; } /* unvisited */
-a:visited { color:#4A4A4A; } /* visited */
-a:hover { color:#4A4A4A; } /* mouse over */
-a:active { color:#4A4A4A; } /* selected */
+.me a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+.me a:link { color: var(--accent-color); } /* unvisited */
+.me a:visited { color: var(--accent-color); } /* visited */
+.me a:hover { color: var(--accent-color); } /* mouse over */
+.me a:active { color: var(--accent-color); } /* selected */
+
+
+a:link { color: var(--text-primary); } /* unvisited */
+a:visited { color: var(--text-primary); } /* visited */
+a:hover { color: var(--text-primary); } /* mouse over */
+a:active { color: var(--text-primary); } /* selected */
 
 
 h2.metest {
@@ -25,11 +37,11 @@ h2.metest {
   margin-bottom: 30px;
 }
 
-.socialmedia {
-  font-size: 25px;
+/* .socialmedia {
+  font-size: 24px;
   padding-top: 10px;
-  margin: 0;
-  text-align: center;
+  margin-bottom: 64px;
+  text-align: center; */
 
 }
 
@@ -87,7 +99,7 @@ img.sara {
   h2.me {
     font-size: 32px;
     line-height: 120%;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
   }
 
   img.sara {
