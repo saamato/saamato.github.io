@@ -1,5 +1,5 @@
 body {
-  background-color: var(--surface-invert);
+  background-color: var(--surface);
 }
 
 
@@ -9,7 +9,7 @@ body {
 }
 
 .hello h1 {
-  color: var(--text-invert);
+  color: var(--text-primary);
 }
 
 
@@ -19,7 +19,7 @@ p.intro {
   line-height: 40px;
     font-weight: 200;
   width: auto;
-  color: var(--text-invert);
+  color: var(--text-primary);
 }
 
 
@@ -27,10 +27,10 @@ a {
   text-decoration: none;
 }
 
-a:link { color: var(--text-invert); } /* unvisited */
-a:visited { color: var(--text-invert); } /* visited */
-a:hover { color: var(--text-invert); } /* mouse over */
-a:active { color: var(--text-invert); } /* selected */
+a:link { color: var(--text-primary); } /* unvisited */
+a:visited { color: var(--text-primary); } /* visited */
+a:hover { color: var(--text-primary); } /* mouse over */
+a:active { color: var(--text-primary); } /* selected */
 
 
 
