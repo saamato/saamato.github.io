@@ -264,7 +264,7 @@ cursor: not-allowed;
     margin-top: 24px;
     width: 100%;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
     padding-left: 16px;
     padding-right: 16px;
     border-top: 1px var(--border-primary);
