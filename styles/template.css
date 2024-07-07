@@ -3,29 +3,25 @@
 .case-study h3 {
   font-family: var(--utility);
   color: var(--accent-color);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   margin-bottom: 0px;
 }
 
-.case-study {
+/* .case-study {
   margin-top: 24px;
   margin-bottom: 24px;
-}
+} */
 
 .case-section {
-  margin-top: 24px;
-}
-
-.image {
-  width: 100%;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  margin-top: 16px;
 }
 
 img.main {
   width: 100%;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 /* Media Queries */
 @media screen and (min-width: 768px) {
@@ -35,13 +31,8 @@ img.main {
     line-height: 130%;
   }
 
-  .case-study {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
-
   .case-section {
-    margin-top: 32px;
+    margin-top: 24px;
   }
 
 @media screen and (min-width: 1025px) {
@@ -49,10 +40,6 @@ img.main {
   .case-study h3 {
     font-size: 32px;
     line-height: 130%;
-  }
-
-  .case-section {
-    margin-top: 40px;
   }
 
 @media screen and (min-width: 1440px) {

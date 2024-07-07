@@ -5,7 +5,8 @@
   --text-invert: #FFFFFF;
   --accent-color: #2C5153;
   --toc-link: #4A4A4A;
-  --surface: #F5F5F5;
+  --surface: #FFFFFF;
+  --border-primary: #E2E2E2;
   --surface-invert: #2C5153;
   --button-stroke: #4a4a4a;
   --button-hover: #4a4a4a;
@@ -252,23 +253,38 @@ cursor: not-allowed;
     text-align: center;
   }
 
+  footer.index {
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  footer.main {
+    margin-top: 24px;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top: 1px var(--border-primary);
+    border-style: solid;
+    text-align: center;
+
+  }
+
+  p.copyright {
+    margin-top: 16px;
+    font-size: 12px;
+    font-family: var(--utility);
+  }
+
   .fa-envelope, .fa-facebook-square, .fa-github-square, .fa-linkedin-in {
     padding-right: 20px;
     text-align: center;
   }
 
 
-  /* footer style with icons */
-
-  /* #footer {
-    height: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 25px;
-    padding-bottom: 50px;
-    width: 100%;
-
-  } */
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
