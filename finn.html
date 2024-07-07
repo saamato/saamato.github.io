@@ -21,6 +21,17 @@
 
   gtag('config', 'UA-125070167-2');
   </script>
+
+  <script>
+  function toggleImage() {
+     var img1 = "https://www.saraamato.com/images/finn_before.jpg";
+     var img2 = "https://www.saraamato.com/images/finn_after.jpg";
+
+     var imgElement = document.getElementById('toggleImage');
+
+     imgElement.src = (imgElement.src === img1)? img2 : img1;
+  }
+  </script>
 </head>
 <body>
   <div class = "container">
@@ -35,9 +46,9 @@
       </ul>
     </nav>
     <section class="finn">
-      <h1> This is Finn aka Finny Boy. </h1>
-      <p> He's a cattledog mix. He's the best. Give him a boop on the nose. </p>
-      <img class="finn" src="images/finn_before.jpg" alt ="personal logo">
+      <h1> This is Finn. </h1>
+      <p> He's a cattledog mix. He's the best. Give him a boop on the nose. Go ahead. Do it. </p>
+      <img class="finn" src="https://www.saraamato.com/images/finn_before.jpg" id="toggleImage" onclick="toggleImage();"/>
 
   </div>
 
