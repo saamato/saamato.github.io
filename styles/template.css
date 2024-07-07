@@ -3,10 +3,15 @@
 .case-study h3 {
   font-family: var(--utility);
   color: var(--accent-color);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 130%;
   margin-bottom: 0px;
+}
+
+
+.small {
+  width: 70%;
 }
 
 /* .case-study {
@@ -15,13 +20,24 @@
 } */
 
 .case-section {
-  margin-top: 16px;
+  margin-top: 24px;
+}
+
+.link {
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+a.link {
+  color: var(--accent-color)
 }
 
 img.main {
   width: 100%;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 /* Media Queries */
 @media screen and (min-width: 768px) {

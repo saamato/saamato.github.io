@@ -1,10 +1,19 @@
 /*div intro*/
 
-.leftrail, .rightrail {
-  grid-column: 1/13;
-  padding-bottom: 32px;
+.project {
   padding-top: 32px;
+  margin-top: 32px;
+  border-style: solid;
+  border-top: 1px solid var(--border-primary);
 
+}
+
+.container {
+  display: block;
+}
+
+.bottom {
+  margin-top: 16px;
 }
 
 a {
@@ -22,9 +31,7 @@ a {
 
 }
 
-div.bottom {
-  margin-top: 16px;
-}
+
 
 .bottom a:link { color: var(--toc-link); } /* unvisited */
 .bottom a:visited { color: var(--toc-link); } /* visited */
@@ -37,7 +44,6 @@ div.intro {
   margin-bottom: 32px;
   grid-column: 1/13;
   width: 100%;
-  display: grid;
 }
 
 button:disabled, {
