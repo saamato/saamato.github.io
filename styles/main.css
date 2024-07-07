@@ -31,10 +31,7 @@ body {
 }
 
 
-img.finn {
-  width: 100%;
-  margin-top: 8px;
-}
+
 
 p {
   font-size: 18px;
@@ -104,37 +101,35 @@ h1 {
   /** Nav Bar **/
   nav {
       height: 50px;
-      margin-top: 40px;
+      margin-top: 32px;
       /* padding-bottom: 25px; */
-      margin-bottom: 25px;
+      margin-bottom: 32px;
       width: 100%;
-      align-items: center;
-
   }
 
   .left {
     float: left;
+
   }
 
   ul.right {
     float: right;
-  }
+  list-style-type: none;
+  padding-top: 14.5px;
+}
 
   .logo {
     width: 50px;
 
   }
 
-  ul.right {
-    list-style-type: none;
-  }
 
   li.navbar  {
     color: var(--text-primary);
     float: left;
     font-size: 18px;
     text-decoration: none;
-    padding-top: 19px;
+    /* padding-top: 19px; */
     padding-left: 30px;
 
   }
@@ -308,7 +303,7 @@ nav {
   height: 75px;
   margin-top: 50px;
   /* padding-bottom: 25px; */
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 
 }
 
@@ -322,17 +317,22 @@ img.logo {
 
 li.navbar {
 font-size: 18px;
-padding-top: 28.5px;
+/* padding-top: 28.5px; */
 padding-left: 40px;
 
 }
 
 li.navbar-1 {
 font-size: 18px;
-padding-top: 28.5px;
+/* padding-top: 28.5px; */
 padding-left: 40px;
 
 }
+
+ul.right {
+padding-top: 27px;
+}
+
 
 .button {
   width: auto;
@@ -395,7 +395,7 @@ nav {
 
 li.navbar,  {
 font-size: 20px;
-padding-top: 40px;
+/* padding-top: 40px; */
 padding-left: 50px;
 padding-right: 10px;
 }
@@ -403,10 +403,15 @@ padding-right: 10px;
 li.navbar-1,  {
 text-decoration: underline;
 font-size: 200px;
-padding-top: 40px;
+/* padding-top: 40px; */
 padding-left: 50px;
 padding-right: 10px;
 }
+
+ul.right {
+padding-top: 39.5px;
+}
+
 
 @media screen and (min-width: 1440px) {
 
