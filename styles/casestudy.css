@@ -7,7 +7,7 @@
 
   a {
     text-decoration: none;
-    text-decoration-color: #085976;
+    text-decoration-color: var(--accent-color);
 
   }
 
