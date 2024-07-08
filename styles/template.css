@@ -48,11 +48,26 @@ a.link {
   color: var(--accent-color)
 }
 
-img.main {
+img.desktop {
+  display: none;
   width: 100%;
   padding-bottom: 8px;
   padding-top: 8px;
 }
+
+img.mobile {
+  width: 100%;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+img.full {
+  width: 100%;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
 
@@ -72,5 +87,18 @@ img.main {
 
   }
 
+  img.desktop {
+    display: block;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+
+  img.mobile {
+    display: none;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
 
 @media screen and (min-width: 1440px) {
