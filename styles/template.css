@@ -138,10 +138,13 @@ img.full {
 
   div.chart {
     grid-column: 1/4;
+    height: 332px;
   }
 
   div.chart2 {
     grid-column: 4/7;
+    height: 332px;
+
 
   }
 
