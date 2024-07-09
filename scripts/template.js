@@ -69,6 +69,8 @@
 
 // trustworthy
 
+Chart.register(ChartDeferred);
+
 const innerLabel = {
   id: 'innerLabel',
   afterDatasetDraw(chart, args, pluginOptions) {
@@ -79,7 +81,7 @@ const innerLabel = {
     const perc = chart.data.datasets[0].data[0] / meta.total * 100;
     ctx.save();
     ctx.textAlign = 'center';
-    ctx.font = '16px sans-serif';
+    ctx.font = '300 32px "Work Sans"';
     ctx.fillText(perc.toFixed(1) + '%', xCoor, yCoor);
     ctx.restore();
   },
@@ -88,15 +90,16 @@ const innerLabel = {
 const options = {
   responsive: true,
   maintainAspectRatio: false,
+  cutout: 120,
   plugins: {
     tooltip: {
-      enabled: false,
-    },
-    deferred: {
+      deferred: {
         xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
         yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
         delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
-      }
+      },
+      enabled: false,
+    },
   },
 };
 
