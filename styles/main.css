@@ -301,11 +301,11 @@ cursor: not-allowed;
 .container {
   /* padding-left: 75px;
   padding-right: 75px; */
-  width: 80%;
-  margin: auto;
-  /* margin-left: 64px;
-  margin-right: 64px; */
-  display: grid;
+  /* width: 80%;
+  margin: auto; */
+  margin-left: 32px;
+  margin-right: 32px;
+  /* display: grid; */
 }
 
 
