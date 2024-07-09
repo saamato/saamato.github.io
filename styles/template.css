@@ -17,6 +17,12 @@
   grid-column-gap: 16px;
 }
 
+.case-study {
+  /* width: 900px; */
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .case-grid h3 {
   grid-column: 1/7;
 }
@@ -109,6 +115,12 @@ img.full {
     line-height: 130%;
   }
 
+  .case-study {
+    /* width: 900px; */
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
   .case-section, .case-grid {
     margin-top: 24px;
   }
@@ -122,6 +134,11 @@ img.full {
 
   .container-full {
     margin-top: -8px;
+  }
+
+  .case-study {
+    width: 900px;
+    margin: auto;
   }
 
   img.desktop {
@@ -146,6 +163,16 @@ img.full {
   div.chart2 {
     grid-column: 4/7;
     height: 332px;
+
+
+  }
+
+  div.chart-text {
+    grid-column: 1/4;
+  }
+
+  div.chart-text2 {
+    grid-column: 4/7;
 
 
   }
