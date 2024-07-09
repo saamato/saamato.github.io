@@ -17,8 +17,6 @@
   grid-column-gap: 16px;
 }
 
-
-
 .case-grid h3 {
   grid-column: 1/7;
 }
@@ -111,7 +109,7 @@ img.full {
     line-height: 130%;
   }
 
-  .case-section {
+  .case-section, .case-grid {
     margin-top: 24px;
   }
 
@@ -120,6 +118,10 @@ img.full {
   ul.template {
       margin-bottom: 10px;
 
+  }
+
+  .container-full {
+    margin-top: -8px;
   }
 
   img.desktop {
