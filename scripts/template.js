@@ -94,7 +94,7 @@ const options = {
   plugins: {
     title: {
               display: true,
-              text: 'Pageviews Increase'
+              text: 'Increase in Pageviews'
             },
 
     tooltip: {
@@ -136,7 +136,7 @@ options: {
   plugins: {
     title: {
               display: true,
-              text: 'Newsletter Sign Ups Increase'
+              text: 'Increase in Newsletter Sign Ups'
             },
 
     tooltip: {
