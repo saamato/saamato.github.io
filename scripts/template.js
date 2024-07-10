@@ -113,7 +113,7 @@ const data = {
   datasets: [
     {
       data: [56.1, 100 - value],
-      backgroundColor: ['rgb(220, 0, 0)', 'rgb(226, 226, 226)']
+      backgroundColor: ['rgb(0, 122, 200)', 'rgb(226, 226, 226)']
     }
   ],
 };
