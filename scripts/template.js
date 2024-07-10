@@ -90,8 +90,13 @@ const innerLabel = {
 const options = {
   responsive: true,
   maintainAspectRatio: false,
-  cutout: 120,
+  cutout: 100,
   plugins: {
+    title: {
+              display: true,
+              text: 'Pageviews Increase'
+            },
+
     tooltip: {
       deferred: {
         xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
@@ -102,6 +107,7 @@ const options = {
     },
   },
 };
+
 
 const value = 56.1;
 const value1 = 43.9;
@@ -123,7 +129,26 @@ new Chart(ctx, {
 type: 'doughnut',
 plugins: [innerLabel],
 data,
-options
+options: {
+  responsive: true,
+  maintainAspectRatio: false,
+  cutout: 100,
+  plugins: {
+    title: {
+              display: true,
+              text: 'Newsletter Sign Ups Increase'
+            },
+
+    tooltip: {
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      },
+      enabled: false,
+    },
+  },
+}
 });
 
 const ctx1 = document.getElementById('signs');
@@ -132,7 +157,7 @@ type: 'doughnut',
 plugins: [innerLabel],
 data: {
       datasets: [{
-        // label: 'Newsletter signups YoY',
+        // title: 'Newsletter signups YoY',
         data: [43.9, 56.1],
         borderWidth: 1,
         backgroundColor: [

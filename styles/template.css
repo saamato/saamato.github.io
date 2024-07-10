@@ -41,16 +41,6 @@ div.chart2 {
 
 }
 
-div.chart-text {
-  grid-column: 1/7;
-}
-
-div.chart-text2 {
-  grid-column: 1/7;
-
-
-}
-
 .fa-angle-left {
   padding-right: 8px;
 }
@@ -61,6 +51,15 @@ div.chart-text2 {
 }
 
 
+.caption-left {
+
+  grid-column: 1/7;
+}
+
+.caption-right {
+
+  grid-column: 1/4;
+}
 
 ul.template {
   list-style-type: decimal;
@@ -180,14 +179,16 @@ img.full {
 
   }
 
-  div.chart-text {
+.caption-left {
     grid-column: 1/4;
+
   }
 
-  div.chart-text2 {
+.caption-right {
     grid-column: 4/7;
 
 
   }
+
 
 @media screen and (min-width: 1440px) {
