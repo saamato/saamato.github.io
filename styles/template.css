@@ -21,10 +21,10 @@
   margin-bottom: 32px;
 }
 
+
 .case-study {
-  /* width: 900px; */
-  /* margin-left: 16px;
-  margin-right: 16px; */
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .case-grid h3 {
@@ -151,6 +151,8 @@ img.full {
   .case-study {
     width: 900px;
     margin: auto;
+    /* margin-left: 16px;
+    margin-right: 16px; */
   }
 
   img.desktop {
